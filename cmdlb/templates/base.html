@@ -124,15 +124,15 @@
                 <p class="mb-0 wow fadeInDown" data-wow-duration="1s">Freelance Web Development</p>
                 <h1 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Hosting
                     <span>Site Development</span> Support</h1>
-                <p class="mb-30 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Creating your bespoke
-                    platform to support your online presence. With you from end-to-end, providing everything you need to
-                    wow your customers.</p>
+                <p class="mb-30 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Creating a bespoke
+                    platform to support your online presence. We will support you from start to finish, providing
+                    everything you need to wow your clients.</p>
                 <a href="#contact-us" class="btn btn-boxed btn-light-boxed-2 wow fadeInDown" data-wow-duration="1.5s"
                    data-wow-delay="1.5s">
                     <svg>
                         <rect x="0" y="0" fill="none" width="100%" height="100%"/>
                     </svg>
-                    Contact
+                    Contact us
                 </a>
             </div>
             <!-- Start scroll down button -->
@@ -332,54 +332,54 @@
     );
 
     $('#contactMessage').click(function () {
-            $.ajax({
-                type: "POST",
-                url: "{% url 'contact' %}",
-                dataType: "json",
-                data: {
-                    "name": $('#name').val(),
-                    "email": $('#email').val(),
-                    "subject": $('#subject').val(),
-                    "message": $('#message').val(),
-                },
-                success: function (data) {
-                    $('#contactForm').html('<h5 class="text-center">' + data.message + '</h5>').fadeIn(3000);
-                }
-            });
-        });
-
-        function getCookie(name) {
-            var cookieValue = null;
-            var i = 0;
-            if (document.cookie && document.cookie !== '') {
-                var cookies = document.cookie.split(';');
-                for (i; i < cookies.length; i++) {
-                    var cookie = jQuery.trim(cookies[i]);
-                    // Does this cookie string begin with the name we want?
-                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
-                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                        break;
-                    }
-                }
-            }
-            return cookieValue;
-        }
-
-        var csrftoken = getCookie('csrftoken');
-
-        function csrfSafeMethod(method) {
-            // these HTTP methods do not require CSRF protection
-            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
-        }
-
-        $.ajaxSetup({
-            crossDomain: false, // obviates need for sameOrigin test
-            beforeSend: function (xhr, settings) {
-                if (!csrfSafeMethod(settings.type)) {
-                    xhr.setRequestHeader("X-CSRFToken", csrftoken);
-                }
+        $.ajax({
+            type: "POST",
+            url: "{% url 'contact' %}",
+            dataType: "json",
+            data: {
+                "name": $('#name').val(),
+                "email": $('#email').val(),
+                "subject": $('#subject').val(),
+                "message": $('#message').val(),
+            },
+            success: function (data) {
+                $('#contactForm').html('<h5 class="text-center">' + data.message + '</h5>').fadeIn(3000);
             }
         });
+    });
+
+    function getCookie(name) {
+        var cookieValue = null;
+        var i = 0;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (i; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    var csrftoken = getCookie('csrftoken');
+
+    function csrfSafeMethod(method) {
+        // these HTTP methods do not require CSRF protection
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+
+    $.ajaxSetup({
+        crossDomain: false, // obviates need for sameOrigin test
+        beforeSend: function (xhr, settings) {
+            if (!csrfSafeMethod(settings.type)) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
+        }
+    });
 
 </script>
 
