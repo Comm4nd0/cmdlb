@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3b1b60d-23c0-4508-837e-c618ab07cbf2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/../salary_calc/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmdlb/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmdlb/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/sophie_banner_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/sophie_banner_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oeg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oeg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../salary_calc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../salary_calc/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../salary_calc/.idea/salary_calc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../salary_calc/.idea/salary_calc.iml" afterDir="false" />
@@ -92,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="76" column="111" lean-forward="true" selection-start-line="76" selection-start-column="111" selection-end-line="76" selection-end-column="111" />
+            <state relative-caret-position="375">
+              <caret line="334" column="67" lean-forward="true" selection-start-line="334" selection-start-column="67" selection-end-line="334" selection-end-column="67" />
               <folding>
                 <element signature="e#4522#4546#0#HTML" expanded="true" />
               </folding>
@@ -577,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="76" column="111" lean-forward="true" selection-start-line="76" selection-start-column="111" selection-end-line="76" selection-end-column="111" />
+        <state relative-caret-position="375">
+          <caret line="334" column="67" lean-forward="true" selection-start-line="334" selection-start-column="67" selection-end-line="334" selection-end-column="67" />
           <folding>
             <element signature="e#4522#4546#0#HTML" expanded="true" />
           </folding>
