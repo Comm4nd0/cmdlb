@@ -1,0 +1,4172 @@
+/* ================================================
+Template Name: MTheme
+Description: Multi-Purpose One Page HTML5 Template
+Template URI: 
+Author: MTheme
+Author URI: https://m-theme.com
+Version: 1.0.0
+
+
+=== CSS index ===
+
+1- Theme Default CSS
+    1-1- CSS General CSS
+    1-2- Margin and padding
+        1-2-1- Reset margin and padding
+        1-2-2- Margin top
+        1-2-3- Margin right
+        1-2-4- Margin bottom
+        1-2-5- Margin left
+        1-2-6- Padding top
+        1-2-7- Padding right
+        1-2-8- Padding bottom
+        1-2-9- Padding left
+    1-3- Section margin
+    1-4- Section padding
+    1-5- Transition
+    1-6- Preloader
+        1-6-1 Preloader home style #1
+        1-6-2 Preloader home style #2
+        1-6-3 Preloader home style #3
+        1-6-4 Preloader home style #4
+    1-7- Option box
+    1-8- Go to top
+    1-9- Background
+        1-9-1 Particle bg
+        1-9-2 Youtube bg
+    1-10- Overlay
+    1-11- Section heading style
+    1-12- Magnific popup
+2- General home page styles
+    2-1- Navbar
+    2-2- Hero
+    2-3- Services
+    2-4- About
+    2-5- Skills bar
+    2-6- Portfolio
+    2-7- Skills circles/Fun facts
+    2-8- Team
+    2-9- Testimonials
+    2-10- Clients
+    2-11- Pricing tables
+    2-12- Faq
+    2-13- Blog
+    2-14- Subscribe
+    2-15- Contact us
+    2-16- Footer
+3- Home page style #1
+    3-1- Hero
+    3-2- Services
+    3-3- About
+    3-4- Portfolio
+    3-5- Team
+    3-6- Testimonials
+    3-7- Pricing tables
+    3-8- Blog
+    3-9- Subscribe
+    3-10- Contact us
+    3-11- Footer
+4- Home page style #2
+    4-1- Hero
+    4-2- Services
+    4-3- About
+    4-4- Portfolio
+    4-5- Fun facts
+    4-6- Team
+    4-7- Testimonials
+    4-8- Pricing tables
+    4-9- Faq
+    4-10- Blog
+    4-11- Subscribe
+    4-12- Contact us
+5- Home page style #3
+    5-1- Hero
+    5-2- Services
+    5-3- Fun facts
+    5-4- Team
+    5-5- Testimonials
+    5-6- Pricing tables
+    5-7- Faq
+    5-8- Blog
+    5-9- Subscribe
+    5-10- Footer and contact us
+6- Home page style #4
+    6-1- Hero
+    6-2- Services
+    6-3- About
+    6-4- Team
+    6-5- Testimonials
+    6-6- Blog
+    6-7- Footer and contact us
+7- Home page style #5
+    7-1- Hero
+8- Home page style #7
+    8-1- Hero
+9- Home page style #10
+    9-1- Slider
+10- Home page style #11
+    10-1- Slider
+11- Blog
+    11-1- Blog header
+    11-2- Blog content
+    11-3- Post details
+    11-4- Sidebar
+    11-5- Pagination
+    11-6- Blog footer
+12- Comming soon
+    12-1- Comming soon general style
+    12-2- Comming soon style #1
+    12-3- Comming soon style #2
+    12-4- Comming soon style #3
+    12-5- Comming soon style #4
+
+================================================ */
+
+
+/* =====================================
+1- Theme default CSS
+======================================== */
+/* =====================================
+1-1- CSS general CSS
+======================================== */
+
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900";
+
+body {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px
+}
+@media (min-width:1200px) {
+    .container {
+        width: 1200px
+    }
+}
+.img {
+    max-width: 100%
+}
+a:focus, .btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none
+}
+a:focus, a:hover, a:active {
+    color: #003459;
+    text-decoration: none
+}
+a, button {
+    outline: medium none;
+    color: #003459;
+    text-decoration: none;
+    display: inline-block
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    color: #00171f;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit
+}
+h1 {
+    font-size: 50px
+}
+h2 {
+    font-size: 30px
+}
+h3 {
+    font-size: 24px;
+    color: #344146
+}
+h4 {
+    font-size: 20px;
+    color: #344146;
+    font-weight: 600
+}
+h5 {
+    font-size: 18px;
+    color: #344146;
+    font-weight: 600
+}
+h6 {
+    font-size: 16px
+}
+ul {
+    margin: 0px;
+    padding: 0px
+}
+li {
+    list-style: none
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #676e71;
+    letter-spacing: 1px
+}
+.btn {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #00171f;
+    padding: 14px 40px;
+    color: #00171f;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    outline: 0 none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    outline: 0 none;
+    border: 0 none;
+    text-decoration: none
+}
+.btn-rounded {
+    border-radius: 24px
+}
+.btn-boxed {
+    border-radius: 0
+}
+.btn-light {
+    border: 1px solid #ffffff;
+    color: #ffffff
+}
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #ffffff
+}
+.btn-light-2 {
+    border: 1px solid #ffffff;
+    color: #ffffff
+}
+.btn-light-2:hover,
+.btn-light-2:focus,
+.btn-light-2:active {
+    background-color: #ffffff;
+    border: 1px solid #ffffff
+}
+.btn-light-3 {
+    background-color: #ffffff
+}
+.btn-light-3:hover,
+.btn-light-3:focus,
+.btn-light-3:active {
+    color: #ffffff
+}
+.btn-light-boxed-1 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 3px;
+    border-radius: 0;
+    margin: 0 auto 10px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.btn-light-boxed-1,
+.btn-light-boxed-1:after {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.btn-light-boxed-1 {
+    font-size: 14px;
+    background-color: transparent;
+    padding: 0px 20px;
+    position: relative
+}
+.btn-light-boxed-1:before,
+.btn-light-boxed-1:after {
+    content: '';
+    position: absolute;
+    z-index: -1
+}
+.btn-light-boxed-1:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0
+}
+.btn-light-boxed-1:hover,
+.btn-light-boxed-1:focus,
+.btn-light-boxed-1:active, 
+.btn-light-boxed-1.active {
+    color: #fff
+}
+.btn-light-boxed-1:hover:after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+.btn-light-boxed-2 {
+    color: #fff;
+    border-color: #fff;
+    width: 100%;
+    max-width: 200px;
+    line-height: 26px;
+    letter-spacing: 1px
+}
+.btn-light-boxed-2 svg {
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+.btn-light-boxed-2 rect {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.btn-light-boxed-2:hover {
+    letter-spacing: 3px;
+    color: #ffffff
+}
+.btn-light-boxed-2:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 45, 330;
+    stroke-dashoffset: 48;
+    -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
+}
+.btn-light-rounded-1, 
+.btn-light-rounded-2 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 3px;
+    border-radius: 24px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.btn-light-rounded-1,
+.btn-light-rounded-1:after,
+.btn-light-rounded-2,
+.btn-light-rounded-2:after {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.btn-light-rounded-1,
+.btn-light-rounded-2 {
+    font-size: 14px;
+    background-color: transparent;
+    padding: 0px 20px;
+    position: relative
+}
+.btn-light-rounded-1:before,
+.btn-light-rounded-1:after,
+.btn-light-rounded-2:before,
+.btn-light-rounded-2:after {
+    content: '';
+    position: absolute;
+    z-index: -1
+}
+.btn-light-rounded-1:after,
+.btn-light-rounded-2:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0
+}
+.btn-light-rounded-1:hover,
+.btn-light-rounded-1:focus,
+.btn-light-rounded-1:active, 
+.btn-light-rounded-1.active,
+.btn-light-rounded-2:hover,
+.btn-light-rounded-2:focus,
+.btn-light-rounded-2:active, 
+.btn-light-rounded-2.active {
+    color: #fff
+}
+.btn-light-rounded-1:hover:after,
+.btn-light-rounded-2:hover:after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 24px
+}
+.btn-light-rounded-2 {
+    border-radius: 4px
+}
+.btn-dark-2 {
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    z-index: 1;
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    -o-transition: all 0.7s ease-in-out 0s;
+    transition: all 0.7s ease-in-out 0s
+}
+.btn-dark-2:hover {
+    background: transparent
+}
+.btn-dark-2:hover:before,
+.btn-dark-2:hover:after {
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    -o-transition: all 0.7s ease-in-out 0s;
+    transition: all 0.7s ease-in-out 0s;
+    width: 100%
+}
+.btn-dark-2:before,
+.btn-dark-2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+.btn-dark-2:after {
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0
+}
+.icon {
+    color: #00171f;
+    font-size: 16px
+}
+.form-control {
+    height: 50px;
+    font-size: 16px
+}
+
+/* =====================================
+1-2- Margin and padding
+===================================== */
+/* =====================================
+1-2-1- Reset margin and padding
+===================================== */
+
+.m-0 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0
+}
+.p-0 {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0
+}
+
+/* =====================================
+1-2-2- Margin top
+===================================== */
+
+.mt-0 {
+    margin-top: 0
+}
+.mt-5 {
+    margin-top: 5px
+}
+.mt-10 {
+    margin-top: 10px
+}
+.mt-15 {
+    margin-top: 15px
+}
+.mt-20 {
+    margin-top: 20px
+}
+.mt-30 {
+    margin-top: 30px
+}
+.mt-40 {
+    margin-top: 40px
+}
+.mt-50 {
+    margin-top: 50px
+}
+.mt-60 {
+    margin-top: 60px
+}
+.mt-70 {
+    margin-top: 70px
+}
+.mt-80 {
+    margin-top: 80px
+}
+.mt-90 {
+    margin-top: 90px
+}
+.mt-100 {
+    margin-top: 100px
+}
+.mt-110 {
+    margin-top: 110px
+}
+.mt-120 {
+    margin-top: 120px
+}
+.mt-130 {
+    margin-top: 130px
+}
+.mt-140 {
+    margin-top: 140px
+}
+.mt-150 {
+    margin-top: 150px
+}
+
+/* =====================================
+1-2-3- Margin right
+===================================== */
+
+.mr-0 {
+    margin-right: 0
+}
+.mr-5 {
+    margin-right: 5px
+}
+.mr-10 {
+    margin-right: 10px
+}
+.mr-15 {
+    margin-right: 15px
+}
+.mr-20 {
+    margin-right: 20px
+}
+.mr-30 {
+    margin-right: 30px
+}
+.mr-40 {
+    margin-right: 40px
+}
+.mr-50 {
+    margin-right: 50px
+}
+.mr-60 {
+    margin-right: 60px
+}
+.mr-70 {
+    margin-right: 70px
+}
+.mr-80 {
+    margin-right: 80px
+}
+.mr-90 {
+    margin-right: 90px
+}
+.mr-100 {
+    margin-right: 100px
+}
+.mr-110 {
+    margin-right: 110px
+}
+.mr-120 {
+    margin-right: 120px
+}
+.mr-130 {
+    margin-right: 130px
+}
+.mr-140 {
+    margin-right: 140px
+}
+.mr-150 {
+    margin-right: 150px
+}
+
+/* =====================================
+1-2-4- Margin bottom
+===================================== */
+
+.mb-0 {
+    margin-bottom: 0
+}
+.mb-5 {
+    margin-bottom: 5px
+}
+.mb-10 {
+    margin-bottom: 10px
+}
+.mb-15 {
+    margin-bottom: 15px
+}
+.mb-20 {
+    margin-bottom: 20px
+}
+.mb-30 {
+    margin-bottom: 30px
+}
+.mb-40 {
+    margin-bottom: 40px
+}
+.mb-50 {
+    margin-bottom: 50px
+}
+.mb-60 {
+    margin-bottom: 60px
+}
+.mb-70 {
+    margin-bottom: 70px
+}
+.mb-80 {
+    margin-bottom: 80px
+}
+.mb-90 {
+    margin-bottom: 90px
+}
+.mb-100 {
+    margin-bottom: 100px
+}
+.mb-110 {
+    margin-bottom: 110px
+}
+.mb-120 {
+    margin-bottom: 120px
+}
+.mb-130 {
+    margin-bottom: 130px
+}
+.mb-140 {
+    margin-bottom: 140px
+}
+.mb-150 {
+    margin-bottom: 150px
+}
+
+/* =====================================
+1-2-5- Margin left
+===================================== */
+
+.ml-0 {
+    margin-left: 0
+}
+.ml-5 {
+    margin-left: 5px
+}
+.ml-10 {
+    margin-left: 10px
+}
+.ml-15 {
+    margin-left: 15px
+}
+.ml-20 {
+    margin-left: 20px
+}
+.ml-30 {
+    margin-left: 30px
+}
+.ml-40 {
+    margin-left: 40px
+}
+.ml-50 {
+    margin-left: 50px
+}
+.ml-60 {
+    margin-left: 60px
+}
+.ml-70 {
+    margin-left: 70px
+}
+.ml-80 {
+    margin-left: 80px
+}
+.ml-90 {
+    margin-left: 90px
+}
+.ml-100 {
+    margin-left: 100px
+}
+.ml-110 {
+    margin-left: 110px
+}
+.ml-120 {
+    margin-left: 120px
+}
+.ml-130 {
+    margin-left: 130px
+}
+.ml-140 {
+    margin-left: 140px
+}
+.ml-150 {
+    margin-left: 150px
+}
+
+/*=====================================
+1-2-6- Padding top
+===================================== */
+
+.pt-0 {
+    padding-top: 0
+}
+.pt-5 {
+    padding-top: 5px
+}
+.pt-10 {
+    padding-top: 10px
+}
+.pt-15 {
+    padding-top: 15px
+}
+.pt-20 {
+    padding-top: 20px
+}
+.pt-30 {
+    padding-top: 30px
+}
+.pt-40 {
+    padding-top: 40px
+}
+.pt-50 {
+    padding-top: 50px
+}
+.pt-60 {
+    padding-top: 60px
+}
+.pt-70 {
+    padding-top: 70px
+}
+.pt-80 {
+    padding-top: 80px
+}
+.pt-90 {
+    padding-top: 90px
+}
+.pt-100 {
+    padding-top: 100px
+}
+.pt-110 {
+    padding-top: 110px
+}
+.pt-120 {
+    padding-top: 120px
+}
+.pt-130 {
+    padding-top: 130px
+}
+.pt-140 {
+    padding-top: 140px
+}
+.pt-150 {
+    padding-top: 150px
+}
+
+/* =====================================
+1-2-7- Padding right
+===================================== */
+
+.pr-0 {
+    padding-right: 0
+}
+.pr-5 {
+    padding-right: 5px
+}
+.pr-10 {
+    padding-right: 10px
+}
+.pr-15 {
+    padding-right: 15px
+}
+.pr-20 {
+    padding-right: 20px
+}
+.pr-30 {
+    padding-right: 30px
+}
+.pr-40 {
+    padding-right: 40px
+}
+.pr-50 {
+    padding-right: 50px
+}
+.pr-60 {
+    padding-right: 60px
+}
+.pr-70 {
+    padding-right: 70px
+}
+.pr-80 {
+    padding-right: 80px
+}
+.pr-90 {
+    padding-right: 90px
+}
+.pr-100 {
+    padding-right: 100px
+}
+.pr-110 {
+    padding-right: 110px
+}
+.pr-120 {
+    padding-right: 120px
+}
+.pr-130 {
+    padding-right: 130px
+}
+.pr-140 {
+    padding-right: 140px
+}
+
+/* =====================================
+1-2-8- Padding bottom
+===================================== */
+
+.pb-0 {
+    padding-bottom: 0
+}
+.pb-5 {
+    padding-bottom: 5px
+}
+.pb-10 {
+    padding-bottom: 10px
+}
+.pb-15 {
+    padding-bottom: 15px
+}
+.pb-20 {
+    padding-bottom: 20px
+}
+.pb-30 {
+    padding-bottom: 30px
+}
+.pb-40 {
+    padding-bottom: 40px
+}
+.pb-50 {
+    padding-bottom: 50px
+}
+.pb-60 {
+    padding-bottom: 60px
+}
+.pb-70 {
+    padding-bottom: 70px
+}
+.pb-80 {
+    padding-bottom: 80px
+}
+.pb-90 {
+    padding-bottom: 90px
+}
+.pb-100 {
+    padding-bottom: 100px
+}
+.pb-110 {
+    padding-bottom: 110px
+}
+.pb-120 {
+    padding-bottom: 120px
+}
+.pb-130 {
+    padding-bottom: 130px
+}
+.pb-140 {
+    padding-bottom: 140px
+}
+.pb-150 {
+    padding-bottom: 150px
+}
+
+/* =====================================
+1-2-9- Padding left
+===================================== */
+
+.pl-0 {
+    padding-left: 0
+}
+.pl-5 {
+    padding-left: 5px
+}
+.pl-10 {
+    padding-left: 10px
+}
+.pl-15 {
+    padding-left: 15px
+}
+.pl-20 {
+    padding-left: 20px
+}
+.pl-30 {
+    padding-left: 30px
+}
+.pl-40 {
+    padding-left: 40px
+}
+.pl-50 {
+    padding-left: 50px
+}
+.pl-60 {
+    padding-left: 60px
+}
+.pl-70 {
+    padding-left: 70px
+}
+.pl-80 {
+    padding-left: 80px
+}
+.pl-90 {
+    padding-left: 90px
+}
+.pl-100 {
+    padding-left: 100px
+}
+.pl-110 {
+    padding-left: 110px
+}
+.pl-120 {
+    padding-left: 120px
+}
+.pl-130 {
+    padding-left: 130px
+}
+.pl-140 {
+    padding-left: 140px
+}
+.pl-150 {
+    padding-left: 150px
+}
+
+/* =====================================
+1-3- Section margin
+===================================== */
+
+.mtb-0 {
+    margin: 0
+}
+.mtb-5 {
+    margin: 5px 0
+}
+.mtb-10 {
+    margin: 10px 0
+}
+.mtb-15 {
+    margin: 15px 0
+}
+.mtb-20 {
+    margin: 20px 0
+}
+.mtb-30 {
+    margin: 30px 0
+}
+.mtb-40 {
+    margin: 40px 0
+}
+.mtb-50 {
+    margin: 50px 0
+}
+.mtb-60 {
+    margin: 60px 0
+}
+.mtb-70 {
+    margin: 70px 0
+}
+.mtb-80 {
+    margin: 80px 0
+}
+.mtb-90 {
+    margin: 90px 0
+}
+.mtb-100 {
+    margin: 100px 0
+}
+.mtb-110 {
+    margin: 110px 0
+}
+.mtb-120 {
+    margin: 120px 0
+}
+.mtb-130 {
+    margin: 130px 0
+}
+.mtb-140 {
+    margin: 140px 0
+}
+.mtb-150 {
+    margin: 150px 0
+}
+
+/* =====================================
+1-4- Section padding
+===================================== */
+
+.ptb-0 {
+    padding: 0
+}
+.ptb-5 {
+    padding: 5px 0
+}
+.ptb-10 {
+    padding: 10px 0
+}
+.ptb-20 {
+    padding: 20px 0
+}
+.ptb-30 {
+    padding: 30px 0
+}
+.ptb-40 {
+    padding: 40px 0
+}
+.ptb-50 {
+    padding: 50px 0
+}
+.ptb-60 {
+    padding: 60px 0
+}
+.ptb-70 {
+    padding: 70px 0
+}
+.ptb-80 {
+    padding: 80px 0
+}
+.ptb-90 {
+    padding: 90px 0
+}
+.ptb-100 {
+    padding: 100px 0
+}
+.ptb-110 {
+    padding: 110px 0
+}
+.ptb-120 {
+    padding: 120px 0
+}
+.ptb-130 {
+    padding: 130px 0
+}
+.ptb-140 {
+    padding: 140px 0
+}
+.ptb-150 {
+    padding: 150px 0
+}
+
+/* =====================================
+1-5- Transition
+===================================== */
+
+a, .btn, img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+/* =====================================
+1-6- Preloader
+===================================== */
+
+#preloader-container {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 9999999
+}
+#preloader-container .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+/* =====================================
+1-6-1 Preloader home style #1
+===================================== */
+
+.home-style-1 .spinner {
+    width: 40px;
+    height: 40px;
+    position: relative
+}
+.home-style-1 .double-bounce1, 
+.home-style-1 .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #00171f;
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out
+}
+.home-style-1 .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s
+}
+@-webkit-keyframes sk-bounce {
+    0%, 100% { 
+        -webkit-transform: scale(0.0);
+        -ms-transform: scale(0.0);
+        transform: scale(0.0)
+    }
+    50% { 
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0)
+    }
+}
+@keyframes sk-bounce {
+    0%, 100% { 
+        -webkit-transform: scale(0.0);
+        -ms-transform: scale(0.0);
+        transform: scale(0.0)
+    } 50% { 
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0)
+    }
+}
+
+/* =====================================
+1-6-2 Preloader home style #2
+===================================== */
+
+.home-style-2 .spinner {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px
+}
+.home-style-2 .spinner > div {
+    background-color: #00171f;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out
+}
+.home-style-2 .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s
+}
+.home-style-2 .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s
+}
+.home-style-2 .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s
+}
+.home-style-2 .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s
+}
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+        -webkit-transform: scaleY(0.4);
+        -ms-transform: scaleY(0.4);
+        transform: scaleY(0.4)
+    }  
+    20% { 
+        -webkit-transform: scaleY(1.0);
+        -ms-transform: scaleY(1.0);
+        transform: scaleY(1.0)
+    }
+}
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+        -webkit-transform: scaleY(0.4);
+        -ms-transform: scaleY(0.4);
+        transform: scaleY(0.4)
+    }  20% { 
+        -webkit-transform: scaleY(1.0);
+        -ms-transform: scaleY(1.0);
+        transform: scaleY(1.0)
+    }
+}
+
+/* =====================================
+1-6-3 Preloader home style #3
+===================================== */
+
+.home-style-3 .sk-cube-grid {
+    width: 40px;
+    height: 40px
+}
+.home-style-3 .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #00171f;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out
+}
+.home-style-3 .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s
+}
+.home-style-3 .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s
+}
+.home-style-3 .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s
+}
+.home-style-3 .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s
+}
+.home-style-3 .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s
+}
+.home-style-3 .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s
+}
+.home-style-3 .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+          animation-delay: 0s
+}
+.home-style-3 .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s
+}
+.home-style-3 .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s
+}
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        -ms-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1)
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        -ms-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1)
+        }
+    }
+@keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        -ms-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1)
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        -ms-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1)
+    } 
+}
+
+/* =====================================
+1-6-4 Preloader home style #4
+===================================== */
+
+.home-style-4 .sk-folding-cube {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+}
+.home-style-4 .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1) 
+}
+.home-style-4 .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00171f;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%
+}
+.home-style-4 .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    -ms-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg)
+}
+.home-style-4 .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    -ms-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg)
+}
+.home-style-4 .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    -ms-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg)
+}
+.home-style-4 .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s
+}
+.home-style-4 .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s
+}
+.home-style-4 .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s
+}
+@-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        -ms-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    } 25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        -ms-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    } 90%, 100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        -ms-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    } 
+}
+@keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        -ms-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    } 25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        -ms-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    } 90%, 100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        -ms-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+}
+
+/* =====================================
+1-7- Option box
+===================================== */
+
+.option-box {
+    position: fixed;
+    width: 200px;
+    left: 0;
+    top: 100px;
+    left: -200px;
+    z-index: 9999;
+    background: #ffffff;
+    border-left: 0;
+    border-radius: 0 0 5px 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.option-box-header {
+    float: left;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #ffffff
+}
+.option-box-header h4 {
+    color: #00171f;
+    line-height: 26px
+}
+.option-box .switcher-btn-area {
+    display: block;
+    position: relative;
+}
+.option-box .switcher-btn-area button.switcher-btn {
+    position: absolute;
+    top: -1px;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    padding: 7px 0;
+    background: #ffffff;
+    border-left: 0 !important;
+    border-radius: 0 5px 5px 0
+}
+.option-box .switcher-btn-area button.switcher-btn i {
+    font-size: 25px;
+    color: #00171f
+}
+.option-box-inner {
+    padding: 25px 20px
+}
+.color-option,
+.lang-option {
+    margin-bottom: 20px
+}
+.color-option p,
+.lang-option p {
+    color: #344146;
+    margin-bottom: 5px
+}
+.option-box ul {
+    margin: 0
+}
+.color-option ul li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 2px
+}
+.lang-option ul li a {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    color: #676e71
+}
+.lang-option ul li a:hover {
+    color: #344146
+}
+
+/* =====================================
+1-8- Go to top
+===================================== */
+
+.go-to-top {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: none
+}
+.go-to-top i {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 34px
+}
+
+/* =====================================
+1-9- Background
+===================================== */
+
+.light-bg {
+    background-color: #ffffff
+}
+.dark-bg {
+    background-color: #f2f3f4
+}
+.dark-blue-bg {
+    background-color: #003459
+}
+.skewed-bg {
+    -webkit-transform: skew(0deg, -10deg);
+    -ms-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg)
+}
+.skewed-bg .container {
+    -webkit-transform: skew(0deg, 10deg);
+    -ms-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 10deg)
+}
+.skewed-bg h2 {
+    color: #ffffff
+}
+.skewed-bg .section-title p,
+.skewed-bg p {
+    color: #ededed
+}
+
+/* =====================================
+1-9-1 Particle bg
+===================================== */
+
+.particle-bg {
+    overflow: hidden;
+    position: relative;
+    z-index: 1
+}
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+/* =====================================
+1-9-2 Youtube bg
+===================================== */
+
+.video-background-style {
+    position: relative;
+    overflow: hidden
+}
+#video-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+/* =====================================
+1-10- Overlay
+===================================== */
+
+.overlay-light,
+.overlay-dark {
+    position: relative;
+    z-index: 0
+}
+.overlay-light:after {
+    background-color: rgba(242, 243, 244 , .9);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1
+}
+.overlay-dark:after {
+    background-color: rgba(0 ,23 ,31 , .9);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1
+}
+
+/* =====================================
+1-11- Section heading style
+===================================== */
+
+.section-title {
+    margin: 0 auto 80px;
+    width: 60%
+}
+.section-title h2 {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase
+}
+.section-title h2:after {
+    background: rgba(0, 0, 0, 0) url("../img/others/title-line-shape.png") no-repeat scroll 0 0;
+    content: "";
+    height: 12px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 67px
+}
+.section-title p {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 24px;
+    color: #676e71
+}
+
+/* =====================================
+1-12- Magnific popup
+===================================== */
+
+.mfp-fade.mfp-bg {
+	opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+/* =====================================
+2- General home page styles
+===================================== */
+/* =====================================
+2-1- Navbar
+===================================== */
+
+header {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3
+}
+#navigation {
+    padding: 0 15px
+}
+.navbar {
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s
+}
+.navbar.affix-top {
+    padding: 30px 0
+}
+.navbar.affix {
+    background: #00171f;
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.8)
+}
+.navbar-brand > img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%
+}
+.navbar.affix .navbar-brand > img {
+    width: 85%
+}
+.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 10px
+}
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav>.active>a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+    height: 4px;
+    width: 25px;
+}
+
+/* =====================================
+2-2- Hero
+===================================== */
+
+#hero {
+    padding-top: 90px
+}
+.header-text {
+    margin: 10% auto 0;
+    width: 80%
+}
+.header-text h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase
+}
+.header-text h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 3px
+}
+.header-text p {
+    color: #dcdedf;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1px
+}
+
+/* =====================================
+2-3- Services
+===================================== */
+
+#services .service-item {
+    margin-bottom: 0
+}
+#services .service-icon {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    background-color: #ffffff;
+    margin: 0 auto 30px auto;
+    line-height: 95px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#services .service-item:hover .service-icon {
+    color: #ffffff
+}
+#services .service-details h5 {
+    color: #344146;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"
+}
+#services .service-details p {
+    font-weight: 300
+}
+#services .service-item:hover .service-details h5 {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+/* =====================================
+2-4- About
+===================================== */
+
+.about-text h3 {
+    color: #313e43
+}
+.fun-fact .fact-item i {
+    font-size: 50px;
+    margin-bottom: 20px
+}
+.fun-fact .fact-item h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px
+}
+.fun-fact .fact-item h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize
+}
+
+/* =====================================
+2-5- Skills bar
+===================================== */
+
+.skillbar {
+  	position:relative;
+  	display:inline-block;
+  	margin:15px 0;
+  	width:100%;
+  	background:#d9ddde;
+  	height:35px;
+  	border-radius:3px;
+  	width:100%
+}
+.skillbar-title {
+  	position:absolute;
+  	top:0;
+  	left:0;
+  	font-weight:bold;
+  	font-size:13px;
+  	color:#ffffff;
+  	border-top-left-radius:3px;
+  	border-bottom-left-radius:3px;
+  	padding:0 20px;
+  	height:35px;
+  	line-height:35px
+}
+.skillbar-bar {
+  	height:35px;
+  	width:0px;
+  	border-radius:3px;
+  	display:inline-block
+}
+.skill-bar-percent {
+  	position:absolute;
+  	right:10px;
+  	top:0;
+  	font-size:11px;
+  	height:35px;
+  	line-height:35px;
+  	color:#ffffff;
+  	color:rgba(0, 0, 0, 0.8)
+}
+
+/* =====================================
+2-6- Portfolio
+===================================== */
+
+.simplefilter {
+    margin: 0 auto 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 0
+}
+.simplefilter li {
+    color: #344146;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.filtr-item {
+    position: relative;
+    height: 250px
+}
+.filtr-item img.filtr-image {
+    width: 100%;
+    height: 100%
+}
+.filtr-overlay .filter-overlay-top {
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.filtr-item:hover .filtr-overlay .filter-overlay-top {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.filtr-item-icon {
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 60%;
+    left: 50%;
+    cursor: pointer;
+    -webkit-transform: translate(-50%, 10%);
+    -ms-transform: translate(-50%, 10%);
+    transform: translate(-50%, 10%)
+}
+.filtr-item-icon span {
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.filtr-item-icon span:hover {
+    color: #003459
+}
+.filtr-overlay .filter-overlay-bottom {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.filtr-item:hover .filtr-overlay .filter-overlay-bottom {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.filtr-item-text h5{
+    color: #ffffff
+}
+.filtr-item-text p {
+    color: #e0f1fa;
+    font-size: 14px
+}
+.filtr-item-text {
+    white-space: nowrap;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.mfp-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 5%;
+    box-sizing: border-box
+}
+
+/* =====================================
+2-7- Skills circles/Fun facts
+===================================== */
+
+.parallax-bg {
+    background-image: url('../img/bg/parallax-bg-1.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%
+}
+.parallax-bg-overlay {
+    position: relative;
+    z-index: 0
+}
+.parallax-bg-overlay:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1
+}
+
+/* =====================================
+2-8- Team
+===================================== */
+
+.card.team-item {
+  width: 100%;
+  position: relative
+}
+.team-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px
+}
+.team-overlay-top ul {
+    margin-top: 8%
+}
+.team-overlay-top ul li {
+   -webkit-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s
+}
+.team-overlay-top ul li a {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 50%
+}
+.team-overlay-top ul li a i.fa {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 44px;
+    text-align: center
+}
+.team-overlay-top ul li:hover a {
+    background-color: #ffffff
+}
+.team-overlay-top ul li:hover a i.fa {
+    color: #003459
+}
+.team-overlay-top {
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.card.team-item:hover .team-overlay-top {
+    bottom: 80%;
+    height: 20%;
+    min-height: 100px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.team-overlay-bottom .caption {
+    margin-top: 8%
+}
+.team-overlay-bottom h3 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 5px
+}
+.team-overlay-bottom p {
+    color: #e0f1fa
+}
+.team-overlay-bottom {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.card.team-item:hover .team-overlay-bottom {
+    height: 20%;
+    top: 80%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+/* =====================================
+2-9- Testimonials
+===================================== */
+
+.client-testimonial {
+    width: 80%;
+    margin: 0 auto
+}
+.client-testimonial h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #313e43;
+    margin-bottom: 5px
+}
+.client-position {
+    font-size: 14px;
+    color: #6d7578;
+    margin-bottom: 20px
+}
+.client-review {
+    font-size: 16px;
+    color: #8d9295
+}
+.testimonials-swiper .swiper-pagination {
+    z-index: 1
+}
+.testimonials-swiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: none;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+.testimonials-swiper .swiper-pagination-bullet-active {
+    width: 30px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+/* =====================================
+2-10- Clients
+===================================== */
+
+#clients img {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"
+}
+#clients img:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.brands-swiper .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.brands-swiper .swiper-slide {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* =====================================
+2-11- Pricing tables
+===================================== */
+
+.card.pricing-table {
+    width: 100%;
+    background: #fefefe;
+    border: 1px solid #e5e7e8;
+    border-radius: 10px;
+    position: relative
+}
+.table-overlay-top {
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.card.pricing-table:hover .table-overlay-top {
+    bottom: 81%;
+    height: 19%;
+    min-height: 100px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.pricing-table .table-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d9ddde
+}
+.card.pricing-table .price-value p {
+    color: #676e71;
+    position: relative;
+    margin-top: 3%
+}
+.card.pricing-table .price-value span {
+    font-size: 46px;
+    color: #535c60
+}
+.card.pricing-table:hover .price-value p,
+.card.pricing-table:hover .price-value span {
+    color: #ffffff
+}
+.pricing-table .plan-info h4 {
+    margin-bottom: 15px;
+    padding-top: 10%
+}
+.pricing-table .plan-info span {
+    font-weight: bold
+}
+.pricing-table .table-content {
+    font-size: 14px;
+    color: #535c60;
+    padding: 10%
+}
+.pricing-table .table-content ul li {
+    margin-bottom: 15px;
+    line-height: 24px
+}
+.pricing-table .table-content ul li:last-child {
+    margin-bottom: 0px
+}
+.pricing-table .table-content .fa {
+    font-size: 16px;
+    margin-right: 10px
+}
+.pricing-table .table-content .fa.fa-times {
+    color: #003459
+}
+.pricing-table .table-footer {
+    padding-top: 25px
+}
+.card.pricing-table:hover .table-footer .btn.btn-dark {
+    background-color: #ffffff
+}
+.table-overlay-bottom {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.card.pricing-table:hover .table-overlay-bottom {
+    top: 81.4%;
+    height: 19%;
+    min-height: 100px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+/* =====================================
+2-12- Faq
+===================================== */
+
+.panel-default {
+    border: none !important
+}
+.panel-default > .panel-heading {
+    background-color: #e6e8e9;
+    padding: 20px 30px;
+    position: relative;
+    border: none !important
+}
+.panel .panel-body {
+    font-size: 14px;
+    color: #416580;
+    background-color: #fcfcfc;
+    padding: 20px;
+    border: none !important
+}
+.panel-title {
+    color: #003459;
+    font-size: 18px
+}
+.panel-title a {
+    color: inherit;
+    display: block;
+    position: relative
+}
+.panel-title a.collapsed::after {
+    content: "\f067"
+}
+.panel-title a::after {
+    content: "\f068";
+    height: 22px;
+    width: 22px;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: "FontAwesome";
+    font-weight: normal;
+    color: #003459;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    text-align: center;
+    border: 1px solid #003459;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.video-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+.video-section .video-image-overlay img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    border-radius: 5px
+}
+.video-section .video-image-overlay:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    border-radius: 5px
+}
+.video-play-icon {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.video-play-icon i {
+    font-size: 50px;
+    color: #00171f;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.video-section:hover .video-play-icon i {
+    color: #ffffff
+}
+
+/* =====================================
+2-13- Blog
+===================================== */
+
+.card.blog-item {
+    width: 100%;
+    background: #fefefe;
+    border: 1px solid #e5e7e8;
+    border-radius: 10px;
+    position: relative
+}
+.post-image img {
+    width: 100%;
+    height: auto
+}
+.post-content {
+    margin: 20px
+}
+.post-content .post-title {
+    color: #344146;
+    margin-bottom: 10px
+}
+.card.blog-item:hover .post-content .post-title {
+    z-index: 2222222
+}
+.post-content .read-more {
+    color: #344146
+}
+.post-overlay-top ul {
+    margin-top: 6%
+}
+.post-overlay-bottom ul {
+    margin-top: 7%
+}
+.post-overlay-top ul li,
+.post-overlay-bottom ul li {
+   padding: 0;
+   margin-right: 10px;
+   -webkit-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s
+}
+.post-overlay-top ul li:last-child,
+.post-overlay-bottom ul li:last-child {
+   margin-right: 0
+}
+.post-overlay-top ul li a,
+.post-overlay-bottom ul li a {
+    font-size: 14px;
+    color: #ffffff
+}
+.post-overlay-top ul li a,
+.post-overlay-bottom ul li a {
+    font-size: 14px;
+    color: #ffffff
+}
+.post-overlay-top ul li a i.fa,
+.post-overlay-bottom ul li a i.fa {
+    margin-right: 5px
+}
+.post-overlay-top ul li:hover a,
+.post-overlay-bottom ul li:hover a {
+    color: #003459
+}
+.post-overlay-top {
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.card.blog-item:hover .post-overlay-top {
+    bottom: 86%;
+    height: 14%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.post-overlay-bottom {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.card.blog-item:hover .post-overlay-bottom {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+/* =====================================
+2-14- Subscribe
+===================================== */
+
+.subscribe-text h2 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: right;
+    padding-top: 10px
+}
+
+/* =====================================
+2-15- Contact us
+===================================== */
+
+.contact-info h4,
+.contact-form h4 {
+    line-height: 42px;
+    font-weight: 400
+}
+.contact-info-details i {
+    margin-right: 10px
+}
+.follow-us li {
+    padding: 0;
+    margin-right: 5px
+}
+.follow-us li:last-child {
+    margin-right: 0
+}
+.contact-info i,
+.follow-us li a i {
+    width: 38px;
+    height: 38px;
+    color: #344136;
+    font-size: 20px;
+    line-height: 36px;
+    border-radius: 50%;
+    border: 1px solid #344136
+}
+.follow-us h5 {
+    font-weight: 400
+}
+.follow-us li a i {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s
+}
+.follow-us li a i:hover {
+  color: #ffffff
+}
+
+/* =====================================
+2-16- Footer
+===================================== */
+
+.copyright-content {
+    background-color: #00171f;
+    height: auto;
+    padding: 25px 80px
+}
+.copyright-content p {
+    color: #a3a7a9;
+    margin: 0;
+    line-height: 35px
+}
+
+/* =====================================
+3- Home page style #1
+===================================== */
+/* =====================================
+3-1- Hero
+===================================== */
+
+#hero {
+    background: rgba(0, 0, 0, 0) url("../img/bg/hero-2.jpg") no-repeat scroll center center / cover;
+    min-height: 650px
+}
+#hero.home-style-1:before {
+    background: rgba(0, 0, 0, 0) url("../img/bg/hero-overlay.png") no-repeat scroll center bottom / 100% auto;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 0
+}
+
+/* =====================================
+3-2- Services
+===================================== */
+
+#services.home-style-1 .service-item .icon {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    color: #ffffff;
+    -webkit-transition: background 0.2s, color 0.2s;
+    -o-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s
+}
+#services.home-style-1 .service-item .icon:after {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: opacity 0.2s, -webkit-transform 0.2s;
+    -o-transition: transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s, -webkit-transform 0.2s;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0
+}
+#services.home-style-1 .service-item:hover .icon:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+}
+#services.home-style-1 .service-item .icon span {
+    line-height: 100px
+}
+
+/* =====================================
+3-3- About
+===================================== */
+
+.home-style-1 .fun-fact .fact-item h2 {
+    color: #53758e
+}
+.home-style-1 .fun-fact .fact-item h5 {
+    color: #658399
+}
+
+/* =====================================
+3-4- Portfolio
+===================================== */
+
+.home-style-1 .filtr-item:hover .filtr-overlay .filter-overlay-top {
+    bottom: 48%;
+    height: 52%;
+    min-height: 130px
+}
+.home-style-1 .filtr-item:hover .filtr-overlay .filter-overlay-bottom {
+    height: 52%;
+    top: 48%;
+    min-height: 131px
+}
+.home-style-1 .filtr-item-icon {
+    top: 50%
+}
+.home-style-1 .filtr-item-text {
+    top: 40%
+}
+
+/* =====================================
+3-5- Team
+===================================== */
+
+.home-style-1 .team-overlay-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.home-style-1 .team-overlay-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+/* =====================================
+3-6- Testimonials
+===================================== */
+
+.home-style-1 .testimonials-swiper .swiper-pagination-bullet {
+    border-radius: 50%
+}
+.home-style-1 .testimonials-swiper .swiper-pagination-bullet-active {
+    border-radius: 6px
+}
+
+/* =====================================
+3-7- Pricing tables
+===================================== */
+
+.home-style-1 .table-overlay-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.home-style-1 .table-overlay-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+/* =====================================
+3-8- Blog
+===================================== */
+
+.home-style-1 .post-image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.home-style-1 .post-overlay-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.home-style-1 .card.blog-item:hover .post-overlay-bottom {
+    height: 14%;
+    top: 42.7%
+}
+
+/* =====================================
+3-9- Subscribe
+===================================== */
+
+.home-style-1 .subscribe-box input {
+    border-radius: 25px;
+    padding: 6px 20px
+}
+
+/* =====================================
+3-10- Contact us
+===================================== */
+
+#map {
+    display: block;
+    width: 100%;
+    height: 500px
+}
+.home-style-1 .contact-form {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    margin-left: 60px
+}
+.home-style-1 .contact-form form {
+    height: 100%;
+    padding: 59px 30px;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"
+}
+.home-style-1 .contact-form input,
+.home-style-1 .contact-form textarea {
+    border-radius: 25px;
+    padding: 6px 20px
+}
+.home-style-1 .contact-form textarea {
+    resize: none
+}
+
+/* =====================================
+3-11- Footer
+===================================== */
+
+#footer.home-style-1 .contact-info {
+    background: rgba(0, 0, 0, 0) url("../img/bg/footer-bg.png") no-repeat scroll center center / cover;
+    min-height: 244px
+}
+.home-style-1 .contact-info h4 {
+    color: #ffffff;
+    font-weight: 300
+}
+.home-style-1 .contact-info i {
+    width: 44px;
+    height: 44px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    line-height: 42px;
+    margin-right: 10px
+}
+.home-style-1 .social-icons ul {
+    float: right
+}
+.home-style-1 .social-icons ul li:last-child {
+    padding-right: 0
+}
+.home-style-1 .social-icons ul li a i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    line-height: 33px;
+    font-size: 16px;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.home-style-1 .social-icons ul li a i:hover {
+    background-color: #ffffff;
+    color: #00171f
+}
+.home-style-1 .go-to-top {
+    border-radius: 50%
+}
+
+/* =====================================
+4- Home page style #2
+===================================== */
+/* =====================================
+4-1- Hero
+===================================== */
+
+#hero.home-style-2 {
+    background: rgba(0, 0, 0, 0) url("../img/bg/hero-2.jpg") no-repeat scroll center center / cover;
+    height: 100vh;
+    padding-top: 90px
+}
+#scroll-down-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%
+}
+#scroll-down-btn::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%
+}
+#scroll-down-btn a {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    color: #fff;
+    padding-top: 60px;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-decoration: none;
+    transition: opacity .3s
+}
+#scroll-down-btn a span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box
+}
+#scroll-down-btn a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb1 2s infinite;
+    animation: sdb1 2s infinite;
+    box-sizing: border-box
+}
+@-webkit-keyframes sdb1 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+    40% {
+      opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      -ms-transform: translate(0, 20px);
+      transform: translate(0, 20px);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+    100% {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+}
+@keyframes sdb1 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+    40% {
+      opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      -ms-transform: translate(0, 20px);
+      transform: translate(0, 20px);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+    100% {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+}
+
+/* =====================================
+4-2- Services
+===================================== */
+
+#services.home-style-2 .service-item {
+    padding: 0 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#services.home-style-2 .service-item:hover {
+    color: #ffffff
+}
+#services.home-style-2 .service-item .service-icon {
+    margin: 0 auto
+}
+#services.home-style-2 .service-item:hover .service-icon {
+    color: #ffffff
+}
+#services.home-style-2 .service-item:hover .service-details h5,
+#services.home-style-2 .service-item:hover .service-details p {
+    color: #ffffff
+}
+
+/* =====================================
+4-3- About
+===================================== */
+
+.home-style-2 .our-skills .skillbar,
+.home-style-2 .our-skills .skillbar-bar {
+  	border-radius:0
+}
+
+/* =====================================
+4-4- Portfolio
+===================================== */
+
+.home-style-2 .filtr-item:hover .filtr-overlay .filter-overlay-top {
+    bottom: 50%;
+    height: 50%
+}
+.home-style-2 .filtr-item:hover .filtr-overlay .filter-overlay-bottom {
+    height: 50%;
+    top: 50%
+}
+
+/* =====================================
+4-5- Fun facts
+===================================== */
+
+.home-style-2 .fact-item {
+    padding: 10% 0;
+    border: 1px solid #ffffff
+}
+
+/* =====================================
+4-6- Team
+===================================== */
+
+.home-style-2 .team-image img {
+    border-radius: 0
+}
+
+/* =====================================
+4-7- Testimonials
+===================================== */
+
+.home-style-2 .testimonials-swiper .testimonials-swiper-inner {
+    position: relative;
+    width: 80%;
+    margin: 51px auto 30px;
+    padding: 70px 20px 20px
+}
+.home-style-2 .testimonials-swiper .client-testimonial {
+    width: 100%
+}
+.home-style-2 .testimonials-swiper .client-image {
+    position: absolute;
+    top: -51px;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+.home-style-2 .testimonials-swiper .swiper-pagination-bullet {
+    border-radius: 0
+}
+.home-style-2 .testimonials-swiper .swiper-pagination-bullet-active {
+    border-radius: 0
+}
+
+/* =====================================
+4-8- Pricing tables
+===================================== */
+
+.home-style-2 .card.pricing-table {
+    border-radius: 0
+}
+
+/* =====================================
+4-9- Faq
+===================================== */
+
+.home-style-2 .panel-group .panel,
+.home-style-2 .panel-heading,
+.home-style-2 .video-section,
+.home-style-2 .video-section .video-image-overlay img ,
+.home-style-2 .video-section .video-image-overlay:after {
+    border-radius: 0
+}
+
+/* =====================================
+4-10- Blog
+===================================== */
+
+.home-style-2 .card.blog-item:hover .post-overlay-bottom {
+    height: 14%;
+    top: 42%
+}
+
+/* =====================================
+4-11- Subscribe
+===================================== */
+
+.home-style-2 .subscribe-box input {
+    border-radius: 0
+}
+
+/* =====================================
+4-12- Contact us
+===================================== */
+
+.home-style-2 .contact-info-item i {
+  color: #344136;
+  border: 1px solid #344136
+}
+.home-style-2 .contact-form form {
+    padding: 0
+}
+.home-style-2 .contact-form input,
+.home-style-2 .contact-form textarea {
+    border-radius: 0
+}
+
+/* =====================================
+5- Home page style #3
+===================================== */
+/* =====================================
+5-1- Hero
+===================================== */
+
+.home-style-3 .background-header-skew {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+.home-style-3 .background-header-skew:before {
+    content: '';
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    bottom: -63px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg)
+}
+.home-style-3 .background-header-skew:after {
+    content: '';
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    bottom: -63px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg)
+}
+#scroll-down-btn.home-style-3 {
+    left: -25px;
+    bottom: -95px
+}
+#scroll-down-btn.home-style-3 a i {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 4px solid rgba(0, 23, 31, 0.2);
+    border-radius: 50%;
+    color: #00171f;
+    font-size: 40px;
+    line-height: 42px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#scroll-down-btn.home-style-3 a i:hover {
+    color: #ffffff
+}
+.home-style-3 .header-text h1 {
+    font-weight: bold
+}
+
+/* =====================================
+5-2- Services
+===================================== */
+
+#services.home-style-3 .service-item {
+    position: relative;
+    border-radius: 5px;
+    padding: 80px 20px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#services.home-style-3 .service-item .icon-inner {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+#services.home-style-3 .service-item .icon {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    color: #ffffff;
+    -webkit-transition: background 0.2s, color 0.2s;
+    -o-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s
+}
+#services.home-style-3 .service-item .icon:after {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: opacity 0.2s, -webkit-transform 0.2s;
+    -o-transition: transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s, -webkit-transform 0.2s;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0
+}
+#services.home-style-3 .service-item:hover .icon:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+}
+#services.home-style-3 .service-item .icon span {
+    line-height: 100px;
+    font-size: 40px;
+    color: #fff
+}
+#services.home-style-3 .service-item:hover .service-icon {
+    color: #ffffff
+}
+
+/* =====================================
+5-3- Fun facts
+===================================== */
+
+.home-style-3 .fact-item i {
+    width: 100px;
+    height: 100px;
+    line-height: 92px;
+    border: 4px solid #ffffff;
+    border-radius: 50%
+}
+
+/* =====================================
+5-4- Team
+===================================== */
+
+.home-style-3 .team-image img {
+    border-radius: 5px
+}
+.home-style-3 .team-overlay-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+.home-style-3 .team-overlay-top ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+.home-style-3 .team-overlay-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+.home-style-3 .card.team-item:hover .team-overlay-top {
+    bottom: 50%;
+    height: 50%
+}
+.home-style-3 .card.team-item:hover .team-overlay-bottom {
+    height: 50%;
+    top: 50%
+}
+
+/* =====================================
+5-5- Testimonials
+===================================== */
+
+.home-style-3 .testimonials-swiper .testimonials-swiper-inner {
+    position: relative;
+    width: 80%;
+    margin: 51px auto 30px;
+    padding: 70px 20px 20px;
+    border-radius: 5px
+}
+.home-style-3 .testimonials-swiper .client-testimonial {
+    width: 100%
+}
+.home-style-3 .testimonials-swiper .client-image {
+    position: absolute;
+    top: -51px;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+.home-style-3 .testimonials-swiper .swiper-pagination-bullet-active {
+    border-radius: 6px
+}
+
+/* =====================================
+5-6- Pricing tables
+===================================== */
+
+.home-style-3 .card.pricing-table {
+    border-radius: 5px
+}
+.home-style-3 .card.pricing-table .table-header {
+    position: relative;
+    background-color: #003459;
+    padding-bottom: 61px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+.home-style-3 .card.pricing-table .table-header .plan-info:before {
+    content: '';
+    width: 50%;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 152px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg)
+}
+.home-style-3 .card.pricing-table .table-header .plan-info:after {
+    content: '';
+    width: 50%;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    top: 152px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg)
+}
+.home-style-3 .card.pricing-table .table-header .plan-info h2 {
+    font-size: 40px;
+    color: #ffffff
+}
+.home-style-3 .card.pricing-table .table-header .plan-info p {
+    color: #ffffff
+}
+.home-style-3 .card.pricing-table .table-header .price-value {
+    position: absolute;
+    left: 134px;
+    top: 116px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.home-style-3 .card.pricing-table .table-header .price-value p {
+    font-size: 14px;
+    margin-top: 28px;
+    line-height: 16px
+}
+.home-style-3 .card.pricing-table .table-header .price-value p span {
+    font-size: 30px
+}
+.home-style-3 .card.pricing-table .table-footer {
+    height: 80px;
+    position: relative;
+    background-color: #003459;
+    padding: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+.home-style-3 .card.pricing-table .table-footer button {
+    position: relative;
+    top: -23px;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+.home-style-3 .card.pricing-table:hover .table-footer .btn.btn-light-3 {
+    color: #ffffff
+}
+
+/* =====================================
+5-7- Faq
+===================================== */
+
+.home-style-3 .panel-group .panel,
+.home-style-3 .panel-heading,
+.home-style-3 .video-section,
+.home-style-3 .video-section .video-image-overlay img ,
+.home-style-3 .video-section .video-image-overlay:after {
+    border-radius: 5px
+}
+
+/* =====================================
+5-8- Blog
+===================================== */
+
+.home-style-3 .post-image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.home-style-3 .post-content-inner h4 {
+    margin-bottom: 0
+}
+.home-style-3 .post-info li {
+    padding: 0;
+    margin-right: 5px
+}
+.home-style-3 .post-info li:last-child {
+    margin-right: 0
+}
+.home-style-3 .post-info li a {
+    font-size: 12px;
+    font-weight: 300;
+    color: #535c60
+}
+
+/* =====================================
+5-9- Subscribe
+===================================== */
+
+.home-style-3 .subscribe-box input {
+    border-radius: 3px
+}
+
+/* =====================================
+5-10- Footer and contact us
+===================================== */
+
+#footer.home-style-3 {
+    background: rgba(0, 0, 0, 0) url("../img/bg/footer-bg.jpg") no-repeat scroll center center / cover;
+    min-height: 800px;
+    margin-top: 25px
+}
+#footer.home-style-3 .background-footer-skew {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 180px
+}
+#footer.home-style-3 .background-footer-skew:before {
+    content: '';
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: -63px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg)
+}
+#footer.home-style-3 .background-footer-skew:after {
+    content: '';
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    top: -63px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg)
+}
+.home-style-3 .go-to-top-skew {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -3%;
+    z-index: 1
+}
+.home-style-3 .go-to-top-skew a i {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 4px solid rgba(0, 23, 31, 0.2);
+    border-radius: 50%;
+    color: #00171f;
+    font-size: 40px;
+    line-height: 42px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.home-style-3 .go-to-top-skew a i:hover {
+    color: #ffffff
+}
+#contact-us.home-style-3 {
+    margin-bottom: 10%
+}
+#contact-us.home-style-3 h4,
+#contact-us.home-style-3 h5 {
+    color: #ffffff
+}
+#contact-us.home-style-3 p {
+    color: #d2d2d2;
+    font-weight: 300
+}
+#contact-us.home-style-3 .contact-info-item i ,
+#contact-us.home-style-3 .follow-us i {
+  color: #d2d2d2;
+  border: 1px solid #d2d2d2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s
+}
+#contact-us.home-style-3 .follow-us i:hover {
+  color: #00171f;
+  background-color: #ffffff;
+  border: 1px solid #ffffff
+}
+#contact-us.home-style-3 .contact-form input,
+#contact-us.home-style-3 .contact-form textarea {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+#contact-us.home-style-3 .contact-form input:focus,
+#contact-us.home-style-3 .contact-form textarea:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #ffffff
+}
+.home-style-3 .footer-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.5)
+}
+.home-style-3 .copyright-content {
+    background-color: transparent
+}
+
+/* =====================================
+6- Home page style #4
+===================================== */
+/* =====================================
+6-1- Hero
+===================================== */
+
+#hero.home-style-4 {
+    min-height: 800px
+}
+#hero.home-style-4:before {
+    content: "";
+    background: #fff none repeat scroll 0 0;
+    position: absolute;
+    height: 50%;
+    top: 70%;
+    left: 0;
+    -webkit-transform: skewY(170deg);
+    -ms-transform: skewY(170deg);
+    transform: skewY(170deg);
+    width: 100%
+}
+#hero.home-style-4 .header-text {
+    margin: 10% auto 0
+}
+#scroll-down-btn.home-style-4 {
+    bottom: 35%
+}
+.home-style-4 .header-text h1 {
+    font-weight: 400
+}
+
+/* =====================================
+6-2- Services
+===================================== */
+
+#services.home-style-4 .service-item {
+    position: relative;
+    border-radius: 0;
+    padding: 100px 20px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#services.home-style-4 .service-item .service-icon {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#services.home-style-4 .service-icon span {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+#services.home-style-4 .service-item:hover .service-icon {
+    color: #ffffff
+}
+
+/* =====================================
+6-3- About
+===================================== */
+
+#about.home-style-4.skewed-bg .about-text h3 {
+    color: #ffffff
+}
+.home-style-4 .fact-item i {
+        color: #003459 !important
+}
+.home-style-4 .fact-item h5 {
+    color: #ededed !important
+}
+.home-style-4 .fact-item h2 {
+    color: #ffffff !important
+}
+
+/* =====================================
+6-4- Team
+===================================== */
+
+.home-style-4 .team-image img,
+.home-style-4 .team-overlay-top,
+.home-style-4 .team-overlay-bottom {
+    border-radius: 0
+}
+
+/* =====================================
+6-5- Testimonials
+===================================== */
+
+#testimonials.home-style-4 .testimonials-swiper-inner {
+    border: 0;
+    margin: 0 auto 30px
+}
+#testimonials.home-style-4 .client-testimonial {
+    padding: 100px 20px 20px;
+    border: 1px solid #ffffff
+}
+#testimonials.home-style-4 .swiper-pagination-bullet {
+    border: 1px solid #ffffff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+#testimonials.home-style-4 .client-testimonial h3 {
+    color: #ffffff
+}
+#testimonials.home-style-4 .swiper-pagination-bullet-active {
+    background: #ffffff;
+    width: 15px;
+    height: 15px
+}
+#testimonials.home-style-4 .testimonials-swiper-inner {
+    position: relative
+}
+#testimonials.home-style-4 .client-image {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    border: 2px solid #ffffff
+}
+#testimonials.home-style-4 .client-image,
+#testimonials.home-style-4 .client-image div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px
+}
+#testimonials.home-style-4 .client-image {
+    -webkit-transform: rotate(45deg) translateY(10px);
+    -ms-transform: rotate(45deg) translateY(10px);
+    transform: rotate(45deg) translateY(10px)
+}
+#testimonials.home-style-4 .client-image .client-image-rotate {
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(-45deg) translateY(-65px);
+    -ms-transform: rotate(-45deg) translateY(-65px);
+    transform: rotate(-45deg) translateY(-65px)
+}
+#testimonials.home-style-4 .client-image .client-image-rotate img {
+    width: 100%;
+    height: auto
+}
+
+/* =====================================
+6-6- Blog
+===================================== */
+
+#blog.home-style-4 .blog-single-item {
+    z-index: 1
+}
+.home-style-4 .card.blog-item,
+.home-style-4 .card.blog-item .post-image img {
+    border-radius: 0
+}
+
+/* =====================================
+6-7- Footer and contact us
+===================================== */
+
+#footer.home-style-4 {
+    background: rgba(0, 0, 0, 0) url("../img/bg/footer-bg.jpg") no-repeat scroll center center / cover;
+    min-height: 800px
+}
+#footer.home-style-4 .background-footer-skew {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 220px
+}
+#footer.home-style-4 .background-footer-skew:before {
+    content: '';
+    width: 100%;
+    height: 227px;
+    position: absolute;
+    left: 0;
+    top: -263px;
+    background-color: #ffffff;
+    -webkit-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-10deg)
+}
+#contact-us.home-style-4 .contact-form input,
+#contact-us.home-style-4 .contact-form textarea {
+    border-radius: 0
+}
+.home-style-4 .footer-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.5)
+}
+.home-style-4 .copyright-content {
+    background-color: transparent
+}
+
+/* =====================================
+7- Home page style #5
+===================================== */
+/* =====================================
+7-1- Hero
+===================================== */
+
+#hero.home-style-1.home-style-5 {
+    background: rgba(0, 0, 0, 0) url("../img/bg/hero-2.jpg") no-repeat scroll center center / cover
+}
+
+/* =====================================
+8- Home page style #7
+===================================== */
+/* =====================================
+8-1- Hero
+===================================== */
+
+#scroll-down-btn.home-style-7 {
+    position: relative
+}
+#scroll-down-btn.home-style-7 a {
+    position: relative;
+    bottom: 25px;
+    left: 48.2%
+}
+#scroll-down-btn.home-style-7 a i {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 4px solid rgba(0, 23, 31, 0.2);
+    border-radius: 50%;
+    color: #00171f;
+    font-size: 40px;
+    line-height: 42px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#scroll-down-btn.home-style-7 a i:hover {
+    color: #ffffff
+}
+
+/* =====================================
+9- Home page style #10
+===================================== */
+/* =====================================
+9-1- Slider
+===================================== */
+
+.home-style-10 .header-text {
+    width: 90%;
+    padding: 30px;
+    background: rgba(256, 256, 256, .05)
+}
+
+/* =====================================
+10- Home page style #11
+===================================== */
+/* =====================================
+10-1- Slider
+===================================== */
+
+.home-style-11 .header-text {
+    border-radius: 5px
+}
+
+/* =====================================
+11- Blog
+===================================== */
+/* =====================================
+11-1- Blog header
+===================================== */
+
+#blog-header {
+    background: rgba(0, 0, 0, 0) url("../img/bg/hero-2.jpg") no-repeat scroll center center / cover;
+    height: 300px;
+    padding-top: 191px
+}
+#blog-header h2 {
+    color: #ffffff
+}
+#blog-header .breadcrumb {
+    background-color: transparent
+}
+#blog-header .breadcrumb li a {
+    color: #ffffff
+}
+
+/* =====================================
+11-2- Blog content
+===================================== */
+
+#blog-content .blog-post {
+    padding: 20px 0 50px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+#blog-content .blog-post:first-child {
+    padding-top: 0
+}
+#blog-content .blog-post:last-child {
+    margin-bottom: 30px
+}
+#blog-content .post-content {
+    margin: 50px 0
+}
+.blog-post .post-thumbnail a,
+.blog-post .post-thumbnail a img {
+    width: 100%
+}
+.blog-post .post-title {
+    letter-spacing: 1px
+}
+.blog-post .post-title {
+    margin-bottom: 0
+}
+.blog-post .post-info li a {
+    color: #344146;
+    font-weight: 300
+}
+
+/* =====================================
+11-3- Post details
+===================================== */
+
+#blog-content .post-details {
+    border-bottom: 0;
+    padding-bottom: 0
+}
+.post-details .post-thumbnail img {
+    width: 100%
+}
+.post-details .post-title {
+    margin-bottom: 15px
+}
+.post-details p {
+    margin-bottom: 25px
+}
+.post-details blockquote p {
+    color: #00171f;
+    letter-spacing: 1px
+}
+.post-details blockquote footer {
+    font-weight: 300;
+    letter-spacing: 1px
+}
+.post-details blockquote footer cite {
+    color: #00171f;
+    font-weight: 400
+}
+.share-tags-post {
+    padding: 20px
+}
+.share-tags-post .post-share li {
+    padding: 0;
+    margin-right: 5px
+}
+.share-tags-post .post-share li:last-child {
+    margin-right: 0
+}
+.share-tags-post .post-share i {
+    width: 28px;
+    height: 28px;
+    color: #ffffff;
+    line-height: 26px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.share-tags-post .post-share i:hover {
+    color: #00171f;
+    background-color: #ffffff;
+    border: 1px solid #ffffff
+}
+.share-tags-post .post-tags {
+    float: right
+}
+.share-tags-post .post-tags li {
+    padding: 0
+}
+.share-tags-post .post-tags a {
+    color: #ffffff;
+    padding: 6px 15px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    border: 1px solid #ffffff
+}
+.share-tags-post .post-tags a:hover {
+    color: #00171f;
+    background-color: #ffffff;
+    border: 1px solid #ffffff
+}
+.pager.posts-pager {
+    margin: 40px 0 20px
+}
+.pager.posts-pager li {
+    border-radius: 0
+}
+.pager.posts-pager li a {
+    border: 1px solid #344136;
+    color: #344136;
+    line-height: 33px;
+    border-radius: 0
+}
+.pager.posts-pager li a:hover {
+    color: #ffffff
+}
+.pager.posts-pager li.disabled a {
+    color: #777;
+}
+.pager.posts-pager li.disabled a:hover {
+    color: #777;
+    background-color: #ffffff;
+    border: 1px solid #344136
+}
+.comment-item {
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    margin-bottom: 15px
+}
+.comment-item:last-child {
+    margin-bottom: 0
+}
+.comment-item .comment-avatar {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px
+}
+.comment-item .comment-avatar img {
+    border: 1px solid #ccc
+}
+.comment-item .comment-body {
+    position: relative;
+    display: table-cell;
+    vertical-align: top
+}
+.comment-body .comment-info h6 {
+    margin-bottom: 0;
+    color: #555;
+    font-weight: 400
+}
+.comment-body .comment-info p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px
+}
+.comment-body .comment-text p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0
+}
+.comment-body .comment-reply a {
+    color: #555;
+    padding: 5px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2
+}
+.comment-body .comment-reply:hover a {
+    color: #ffffff
+}
+.comments-list .comment-item-reply {
+    margin-left: 30px
+}
+.post-comments .comments-form h5 {
+    margin-bottom: 15px;
+    font-weight: 400
+}
+.post-comments .comments-form input,
+.post-comments .comments-form textarea,
+.post-comments .comments-form input:focus,
+.post-comments .comments-form textarea:focus {
+    border-radius: 0
+}
+.post-comments .comments-form input:focus,
+.post-comments .comments-form textarea:focus {
+    box-shadow: none;
+    border-color: #777
+}
+
+/* =====================================
+11-4- Sidebar
+===================================== */
+
+.widget-title {
+    letter-spacing: 1px
+}
+.widget-content li {
+    text-transform: capitalize;
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+}
+.widget-content li a {
+    color: #344146;
+    line-height: 30px;
+    display: block
+}
+.widget-content li span.post-date {
+    font-size: 12px;
+    font-weight: 300;
+    display: block
+}
+.search-form {
+    width: 100%
+}
+.search-form input[type=text] {
+    float: right;
+    width: 100px;
+    color: #003459;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out
+}
+.search-form input[type=text]:focus {
+    width: 100%
+}
+.search-form .input-group-btn .btn {
+    padding: 13px 20px 14px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    line-height: 21px
+}
+.search-form .input-group-btn .btn:hover {
+    color: #fff
+}
+.tags-widget a {
+    color: #344146;
+    padding: 6px 15px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    border: 1px solid #ccc
+}
+.tags-widget a:hover {
+    color: #ffffff
+}
+
+/* =====================================
+11-5- Pagination
+===================================== */
+
+#blog-content .pagination li {
+    display: inline-block;
+    padding: 0
+}
+#blog-content .pagination li a {
+    margin-right: 5px
+}
+#blog-content .pagination li a,
+#blog-content .pagination li span {
+    padding: 0;
+    border-radius: 0
+}
+#blog-content .pagination a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #344136;
+    color: #344136;
+    line-height: 33px
+}
+#blog-content .pagination a.disabled {
+    color: #777
+}
+#blog-content .pagination a:hover,
+#blog-content .pagination a:focus,
+#blog-content .pagination a.active {
+    color: #ffffff
+}
+#blog-content .pagination a.disabled:hover,
+#blog-content .pagination a.disabled:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border: 1px solid #344136
+}
+
+/* =====================================
+11-6- Blog footer
+===================================== */
+
+.blog-footer .go-to-top {
+    border-radius: 0
+}
+
+/* =====================================
+12- Comming soon
+===================================== */
+/* =====================================
+12-1- Comming soon general style
+===================================== */
+
+#coming-soon-wrapper {
+    background: rgba(0, 0, 0, 0) url("../img/bg/hero-2.jpg") no-repeat scroll center center / cover;
+    min-height: 100vh
+}
+#coming-soon-counter {
+    padding: 200px 0 60px
+}
+.coming-soon-title h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300
+}
+#count-down li {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out
+}
+#count-down li span {
+    display: block
+}
+#count-down li .count-number {
+    font-size: 40px;
+    margin-bottom: 5px
+}
+#count-down li .count-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase
+}
+#subscribtion-form .coming-soon-email-input {
+    padding-right: 5px
+}
+#subscribtion-form p {
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 20px
+}
+#subscribtion-form .btn {
+    padding: 14px 40px
+}
+#subscribtion-form .btn:hover {
+    background-color: transparant;
+    color: #ffffff;
+    border-color: #ffffff
+}
+#coming-soon-footer {
+    padding-bottom: 20px;
+    margin-top: 100px
+}
+#coming-soon-footer .copyright p {
+    color: #a4a4a4;
+    font-size: 14px;
+    line-height: 35px
+}
+#coming-soon-footer .social-icons li:last-child {
+    padding-right: 0
+}
+#coming-soon-footer .social-icons li a i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    line-height: 33px;
+    font-size: 16px;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+#coming-soon-footer .social-icons li a i:hover {
+    background-color: #ffffff;
+    color: #00171f
+}
+
+/* =====================================
+12-2- Comming soon style #1
+===================================== */
+
+#count-down li {
+    border-radius: 50%
+}
+#subscribtion-form input {
+    border-radius: 25px;
+    padding: 6px 20px
+}
+
+/* =====================================
+12-3- Comming soon style #2
+===================================== */
+
+#count-down.coming-soon-style-2 li,
+#subscribtion-form.coming-soon-style-2 input {
+    border-radius: 0
+}
+
+/* =====================================
+12-4- Comming soon style #3
+===================================== */
+
+#count-down.coming-soon-style-3 li,
+#subscribtion-form.coming-soon-style-3 input {
+    border-radius: 5px
+}
+
+/* =====================================
+12-5- Comming soon style #4
+===================================== */
+
+#count-down.coming-soon-style-4 li {
+    border-radius: 0;
+    margin: 50px 40px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative
+}
+#count-down.coming-soon-style-4 li span {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+#count-down.coming-soon-style-4 li .count-number {
+    margin-top: 10px;
+    position: absolute;
+    left: -25px;
+    right: 0
+}
+#count-down.coming-soon-style-4 li .count-title {
+    margin-top: 55px;
+    position: absolute;
+    left: 0;
+    right: -35px
+}

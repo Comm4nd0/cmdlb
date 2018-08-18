@@ -1,0 +1,922 @@
+/* ================================================
+
+=== Mobile first index ===
+
+1- width: 320px to 480px
+    1-1- Global CSS
+    1-2- Home page style #1
+    1-3- Home page style #2
+    1-4- Home page style #3
+    1-5- Home page style #7
+    1-6- Home page style #10
+    1-7- Blog details right/left sidebar
+    1-8- Comming soon #1
+2- width: 481px to 767px
+    2-1- Global CSS
+    2-2- Home page style #1
+    2-3- Home page style #2
+    2-4- Home page style #3
+    2-5- Home page style #7
+    2-6- Home page style #10
+    2-7- Blog details right/left sidebar
+    2-8- Comming soon #1
+3- width: 768px to 991px
+    3-1- Global CSS
+    3-2- Home page style #1
+    3-3- Home page style #1
+    3-4- Home page style #3
+    3-5- Home page style #7
+    3-6- Comming soon #1
+4- width: 992px to 1169px
+    4-1- Global CSS
+    4-2- Home page style #1
+    4-3- Home page style #2
+    4-4- Home page style #3
+    4-5- Home page style #7
+5- width: 1170px to 1366px
+    5-1- Global CSS
+    5-2- Home page style #1
+    5-3- Home page style #3
+    5-4- Home page style #4
+6- width: 1367px to 1920px
+    6-1- Global CSS
+    6-2- Home page style #1
+    6-3- Home page style #2
+    6-4- Home page style #3
+    6-5- Home page style #4
+    6-6- Home page style #7
+
+================================================ */
+
+/* Custom, iPhone Retina */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* =====================================
+    1- Global CSS
+    ===================================== */
+
+    /* navbar */
+    .navbar.affix-top {
+        padding: 10px 0
+    }
+    .navbar, .navbar-fixed-top {
+        background: #00171f
+    }
+    /* hero */
+    .header-text {
+        margin: 10% auto
+    }
+    .header-text h2,
+    .header-text h1 {
+        font-size: 35px
+    }
+    /* services */
+    #services .service-item {
+        margin-bottom: 10%
+    }
+    /* about */
+    .about-text {
+        text-align: center;
+        margin-bottom: 10%
+    }
+    .fun-fact .fact-single-item {
+        width: 100%;
+        margin-bottom: 5%
+    }
+    .fun-fact .fact-single-item:last-child {
+        margin-bottom: 0
+    }
+    /* portfolio */
+    .filtr-item {
+        width: 100%
+    }
+    .mfp-container {
+        padding: 0 15%
+    }
+    /* team */
+    .card.team-item {
+        margin-bottom: 10%
+    }
+    .team-image img {
+        height: 75%
+    }
+    .card.team-item:hover .team-overlay-top {
+        bottom: 75%;
+        height: 25%
+    }
+    .card.team-item:hover .team-overlay-bottom {
+        top: 75%;
+        height: 25%
+    }
+    /* testimonials */
+    .client-testimonial {
+        width: 100%
+    }
+    /* pricing tables */
+    .card.pricing-table {
+        margin-bottom: 10%
+    }
+    .card.pricing-table:hover .table-overlay-top {
+        height: 24%;
+        bottom: 76%
+    }
+    .card.pricing-table .price-value p {
+        margin-top: 7%
+    }
+    .pricing-table .plan-info h4 {
+        padding-top: 15%
+    }
+    /* blog */
+    .blog-single-item {
+        width: 100%
+    }
+    .card.blog-item {
+        margin-bottom: 10%
+    }
+    .post-image img {
+        height: 265px
+    }
+    .card.blog-item:hover .post-overlay-top {
+        height: 17%;
+        bottom: 83.1%;
+        max-height: 100px
+    }
+    /* subscribe */
+    .subscribe-text h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    .subscribe-box input {
+        margin-bottom: 10px
+    }
+    /* contact us */
+    .contact-info {
+        margin-bottom: 15%
+    }
+    /* footer */
+    .copyright-content {
+        padding: 30px 15px;
+        text-align: center
+    }
+
+    /* =====================================
+    2- Home page style #1
+    ===================================== */
+
+    /* blog */
+    .home-style-1 .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 41%;
+        max-height: 100px
+    }
+    /* contact us */
+    .home-style-1 .contact-form {
+        position: relative;
+        margin-left: 0
+    }
+    /* footer */
+    .home-style-1 .contact-info {
+        text-align: left;
+        margin-bottom: 0
+    }
+    .home-style-1 .contact-info-item {
+        margin-bottom: 5%
+    }
+    .home-style-1 .social-icons {
+        margin-top: 5%;
+        text-align: center
+    }
+    .home-style-1 .social-icons ul {
+        float: none
+    }
+
+    /* =====================================
+    3- Home page style #2
+    ===================================== */
+
+    /* hero */
+    .home-style-2 .header-text {
+        margin: -3% auto
+    }
+    /* services */
+    #services.home-style-2 .second-services-row {
+        margin-top: 0
+    }
+    /* blog */
+    .home-style-2 .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 39%;
+        max-height: 80px
+    }
+
+    /* =====================================
+    4- Home page style #3
+    ===================================== */
+
+    /* hero */
+    #scroll-down-btn.home-style-3 a {
+        bottom: 55px
+    }
+    /* services */
+    #services.home-style-3 .service-item {
+        margin-top: 25%
+    }
+    /* pricing tables */
+    .home-style-3 .card.pricing-table .table-header .plan-info:before {
+        height: 40px
+    }
+    .home-style-3 .card.pricing-table .table-header .plan-info:after {
+        height: 40px
+    }
+    .home-style-3 .card.pricing-table .table-header .price-value {
+        left: 38%;
+        top: 125px
+    }
+    /* footer */
+    .home-style-3 .go-to-top-skew {
+        top: 1%
+    }
+    .home-style-3 .input-form-item.pl-5 {
+        padding-left: 15px
+    }
+    .home-style-3 .input-form-item.pr-5 {
+        padding-right: 15px
+    }
+
+    /* =====================================
+    5- Home page style #7
+    ===================================== */
+    
+    /* hero */
+    #scroll-down-btn.home-style-7 a {
+        bottom: 65px;
+        left: 44%
+    }
+    
+    /* =====================================
+    6- Home page style #10
+    ===================================== */
+    
+    /* slider */
+    .home-style-10 .header-text {
+        padding: 20px 10px
+    }
+    
+    /* =====================================
+    7- Blog details right/left sidebar
+    ===================================== */
+
+    .share-tags-post .post-share {
+        margin-bottom: 10px
+    }
+
+    /* =====================================
+    8- Comming soon #1
+    ===================================== */
+
+    #subscribtion-form .coming-soon-email-input {
+        padding-right: 15px
+    }
+    #coming-soon-footer .social-icons {
+        text-align: center;
+        float: none !important
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* =====================================
+    1- Global CSS
+    ===================================== */
+
+    /* navbar */
+    .navbar.affix-top {
+        padding: 10px 0
+    }
+    .navbar, .navbar-fixed-top {
+        background: #00171f
+    }
+    /* services */
+    #services .service-item {
+        margin-bottom: 5%
+    }
+    /* about */
+    .about-text {
+        margin-bottom: 10%
+    }
+    .fun-fact .fact-single-item {
+        margin-bottom: 0
+    }
+    /* portfolio */
+    .mfp-container {
+        padding: 0 10%
+    }
+    /* team */
+    .card.team-item {
+        margin-bottom: 10%
+    }
+    /* pricing tables */
+    .card.pricing-table {
+        margin-bottom: 10%
+    }
+    .card.pricing-table:hover .table-overlay-top {
+        height: 27%;
+        bottom: 73%
+    }
+    .card.pricing-table .price-value p {
+        margin-top: 10%
+    }
+    .pricing-table .plan-info h4 {
+        padding-top: 15%
+    }
+    /* blog */
+    .blog-single-item:last-child {
+        float: none;
+        margin: 0 auto;
+        clear: both
+    }
+    .card.blog-item {
+        margin-bottom: 10%
+    }
+    .post-image img {
+        height: 265px
+    }
+    .card.blog-item:hover .post-overlay-top {
+        height: 17%;
+        bottom: 83.1%;
+        max-height: 100px
+    }
+    .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 39%;
+        max-height: 71px
+    }
+    /* subscribe */
+    .subscribe-text h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    .subscribe-box input {
+        margin-bottom: 10px
+    }
+    /* contact us */
+    .contact-info {
+        margin-bottom: 10%
+    }
+    /* footer */
+    .copyright-content {
+        padding: 30px 15px;
+        text-align: center
+    }
+
+    /* =====================================
+    2- Home page style #1
+    ===================================== */
+
+    /* blog */
+    .home-style-1 .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 41%;
+        max-height: 100px
+    }
+    /* contact us */
+    .home-style-1 .contact-form {
+        position: relative;
+        margin-left: 0
+    }
+    /* footer */
+    .home-style-1 .contact-info {
+        margin-bottom: 0
+    }
+    .home-style-1 .contact-info-item {
+        margin-bottom: 5%
+    }
+    .home-style-1 .social-icons {
+        margin-top: 5%;
+        text-align: center
+    }
+    .home-style-1 .social-icons ul {
+        float: none
+    }
+
+    /* =====================================
+    3- Home page style #2
+    ===================================== */
+
+    /* services */
+    #services.home-style-2 .second-services-row {
+        margin-top: 0
+    }
+    #services.home-style-2 .service-item {
+        margin-bottom: 30px
+    }
+
+    /* =====================================
+    4- Home page style #3
+    ===================================== */
+
+    /* hero */
+    #scroll-down-btn.home-style-3 a {
+        bottom: 40px
+    }
+    /* services */
+    #services.home-style-3 .service-item {
+        margin-top: 15%
+    }
+    /* pricing tables */
+    .home-style-3 .card.pricing-table .table-header {
+        padding-bottom: 14%
+    }
+    .home-style-3 .card.pricing-table .table-header .plan-info:before,
+    .home-style-3 .card.pricing-table .table-header .plan-info:after {
+        height: 92px
+    }
+    .home-style-3 .card.pricing-table .table-header .price-value {
+        left: 43%;
+        top: 125px
+    }
+    /* footer */
+    .home-style-3 .go-to-top-skew {
+        top: 0
+    }
+    .home-style-3 .input-form-item.pl-5 {
+        padding-left: 15px
+    }
+    .home-style-3 .input-form-item.pr-5 {
+        padding-right: 15px
+    }
+
+    /* =====================================
+    5- Home page style #7
+    ===================================== */
+    
+    /* hero */
+    #scroll-down-btn.home-style-7 a {
+        bottom: 53px;
+        left: 46%
+    }
+    
+    /* =====================================
+    6- Home page style #10
+    ===================================== */
+    
+    /* slider */
+    .home-style-10 .header-text {
+        padding: 20px 10px
+    }
+    
+    /* =====================================
+    7- Blog details right/left sidebar
+    ===================================== */
+
+    .share-tags-post .post-share {
+        margin-bottom: 10px
+    }
+
+    /* =====================================
+    8- Comming soon #1
+    ===================================== */
+
+    #subscribtion-form .coming-soon-email-input {
+        padding-right: 15px
+    }
+    #coming-soon-footer .social-icons {
+        text-align: center;
+        float: none !important
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* =====================================
+    1- Global CSS
+    ===================================== */
+
+    /* general */
+    .container {
+        width: 100%
+    }
+    /* portfolio*/
+    .mfp-container {
+        padding: 0 10%
+    }
+    /* team */
+    .card.team-item:hover .team-overlay-top {
+        bottom: 80%;
+        height: 20%;
+        min-height: 64px
+    }
+    .card.team-item:hover .team-overlay-bottom {
+        top: 80%;
+        height: 20%;
+        min-height: 64px
+    }
+    .team-overlay-top ul {
+        margin-top: 5%
+    }
+    .team-overlay-bottom .caption {
+        margin-top: 5%
+    }
+    /* blog */
+    .post-image img {
+        height: 265px
+    }
+    .card.blog-item:hover .post-overlay-top {
+        height: 17%;
+        bottom: 83.1%;
+        max-height: 100px
+    }
+    .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 41%;
+        max-height: 100px
+    }
+    /* subscribe */
+    .subscribe-text h2 {
+        font-size: 24px
+    }
+    .subscribe-content button.btn {
+        float: left
+    }
+    /* contact us */
+    .contact-info {
+        margin-bottom: 5%
+    }
+
+    /* =====================================
+    2- Home page style #1
+    ===================================== */
+
+    /* blog */
+    .home-style-1 .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 41%;
+        max-height: 100px
+    }
+    /*   contact us */
+    .home-style-1 .contact-form form {
+        padding: 68px 30px
+    }
+    /* footer */
+    .home-style-1 .contact-info h4 {
+        font-size: 17px
+    }
+
+    /* =====================================
+    3- Home page style #1
+    ===================================== */
+
+    /* blog */
+    .home-style-2 .card.blog-item:hover .post-overlay-bottom {
+        height: 14%;
+        top: 37%
+    }
+
+    /* =====================================
+    4- Home page style #3
+    ===================================== */
+
+    /* hero */
+    #scroll-down-btn.home-style-3 a {
+        bottom: 30px
+    }
+    /* services */
+    #services.home-style-3 .service-item {
+        margin-top: 20%
+    }
+    /* pricing tables */
+    .home-style-3 .card.pricing-table .table-header {
+        padding-bottom: 19%
+    }
+    .home-style-3 .card.pricing-table .table-header .plan-info:before,
+    .home-style-3 .card.pricing-table .table-header .plan-info:after {
+        height: 92px
+    }
+    .home-style-3 .card.pricing-table .table-header .price-value {
+        left: 35%;
+        top: 125px
+    }
+    /* footer */
+    .home-style-3 .go-to-top-skew {
+        top: -1%
+    }
+
+    /* =====================================
+    5- Home page style #7
+    ===================================== */
+    
+    /* hero */
+    #scroll-down-btn.home-style-7 a {
+        bottom: 45px;
+        left: 47.5%
+    }
+    
+    /* =====================================
+    6- Comming soon #1
+    ===================================== */
+
+    #subscribtion-form .coming-soon-email-input {
+        padding-right: 15px
+    }
+    #coming-soon-footer .social-icons {
+        text-align: center;
+        float: none !important
+    }
+
+}
+
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    /* =====================================
+    1- Global CSS
+    ===================================== */
+
+    /* team */
+    .card.team-item:hover .team-overlay-top {
+        bottom: 80%;
+        height: 20%;
+        min-height: 64px
+    }
+    .card.team-item:hover .team-overlay-bottom {
+        top: 80%;
+        height: 20%;
+        min-height: 64px
+    }
+    .team-overlay-top ul {
+        margin-top: 6%
+    }
+    .team-overlay-bottom .caption {
+        margin-top: 6%
+    }
+    /* blog */
+    .card.blog-item:hover .post-overlay-top {
+        height: 17%;
+        bottom: 83.1%
+    }
+    .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 34.3%
+    }
+    /* subscribe */
+    .subscribe-content button.btn {
+        float: left
+    }
+
+    /* =====================================
+    2- Home page style #1
+    ===================================== */
+
+    /*   contact us */
+    .home-style-1 .contact-form form {
+        padding: 68px 30px
+    }
+
+    /* =====================================
+    3- Home page style #2
+    ===================================== */
+
+    /* blog */
+    .home-style-2 .card.blog-item:hover .post-overlay-bottom {
+      height: 17%;
+      top: 28.3%
+    }
+
+    /* =====================================
+    4- Home page style #3
+    ===================================== */
+
+    /* hero */
+    #scroll-down-btn.home-style-3 a {
+        bottom: 20px
+    }
+    /* pricing tables */
+    .home-style-3 .card.pricing-table .table-header .price-value {
+        left: 34%;
+        top: 125px
+    }
+    /* footer */
+    .home-style-3 .go-to-top-skew {
+        top: -2%
+    }
+
+    /* =====================================
+    5- Home page style #7
+    ===================================== */
+    
+    /* hero */
+    #scroll-down-btn.home-style-7 a {
+        bottom: 35px
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+
+@media (min-width: 1170px) and (max-width: 1366px) {
+
+    /* =====================================
+    1- Global CSS
+    ===================================== */
+    
+    /* navbar */
+    .navbar.navbar-fixed-top .container {
+        width: 90%
+    }
+    /* blog */
+    .post-image img {
+        height: 265px
+    }
+    .card.blog-item:hover .post-overlay-top {
+        height: 17%;
+        bottom: 83.1%
+    }
+    .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 40.7%
+    }
+    /* subscribe */
+    .subscribe-content button.btn {
+        float: left
+    }
+
+    /* =====================================
+    2- Home page style #1
+    ===================================== */
+
+    /*   contact us */
+    .home-style-1 .contact-form form {
+        padding: 68px 30px
+    }
+    /* footer */
+    #footer.home-style-1  .contact-info {
+        min-height: 256px
+    }
+
+    /* =====================================
+    3- Home page style #3
+    ===================================== */
+
+    /* pricing tables */
+    .home-style-3 .card.pricing-table .table-header .price-value {
+        left: 36%;
+        top: 125px
+    }
+
+    /* =====================================
+    4- Home page style #4
+    ===================================== */
+
+    /* footer */
+    #footer.home-style-4 .background-footer-skew:before {
+        height: 242px;
+        top: -271px
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+
+    /* =====================================
+    1- Global CSS
+    ===================================== */
+
+    /* general */
+    .container {
+        width: 90%
+    }
+    /* hero */
+    #hero {
+        min-height: 886px
+    }
+    /* pricing tables */
+    .card.pricing-table:hover .table-overlay-top {
+        height: 25%;
+        bottom: 75%
+    }
+    .card.pricing-table .price-value p {
+        margin-top: 10%
+    }
+    .pricing-table .plan-info h4 {
+        padding-top: 15%
+    }
+    /* blog */
+    .post-image img {
+        height: 350px
+    }
+    .post-overlay-top ul {
+        margin-top: 9%
+    }
+    .post-overlay-bottom ul {
+        margin-top: 10%
+    }
+    .card.blog-item:hover .post-overlay-top {
+        height: 21%;
+        bottom: 79%
+    }
+    .post-overlay-bottom,
+    .post-overlay-top {
+        background-size: cover
+    }
+    .card.blog-item:hover .post-overlay-bottom {
+        height: 17%;
+        top: 42.6%;
+        min-height: 112px
+    }
+    /* subscribe */
+    .subscribe-content button.btn {
+        float: left
+    }
+
+    /* =====================================
+    2- Home page style #1
+    ===================================== */
+
+    /*   contact us */
+    .home-style-1 .contact-form form {
+        padding: 68px 30px
+    }
+    /* footer */
+    #footer.home-style-1 .contact-info {
+        min-height: 360px;
+        padding: 12% 0
+    }
+
+    /* =====================================
+    3- Home page style #2
+    ===================================== */
+
+    /* blog */
+    .home-style-2 .card.blog-item:hover .post-overlay-bottom {
+      height: 17%;
+      top: 41%
+    }
+
+    /* =====================================
+    4- Home page style #3
+    ===================================== */
+
+    /* hero */
+    #hero.home-style-3 {
+        padding-bottom: 28px
+    }
+    .home-style-3 .background-header-skew:before,
+    .home-style-3 .background-header-skew:after {
+        height: 170px;
+        bottom: -113px
+    }
+    #scroll-down-btn.home-style-3 a {
+        bottom: 0
+    }
+    /* pricing tables */
+    .home-style-3 .card.pricing-table .table-header {
+        padding-bottom: 16%
+    }
+    .home-style-3 .card.pricing-table .table-header .plan-info:before,
+    .home-style-3 .card.pricing-table .table-header .plan-info:after {
+        height: 67px
+    }
+    .home-style-3 .card.pricing-table .table-header .price-value {
+        left: 38%;
+        top: 125px
+    }
+    /* footer */
+    #footer.home-style-3 {
+        margin-top: 50px;
+        padding-top: 28px
+    }
+    #footer.home-style-3 .background-footer-skew:before,
+    #footer.home-style-3 .background-footer-skew:after {
+        height: 168px;
+        top: -111px
+    }
+    .home-style-3 .go-to-top-skew {
+        top: -4.5%
+    }
+
+    /* =====================================
+    5- Home page style #4
+    ===================================== */
+
+    /* footer */
+    #footer.home-style-4 .background-footer-skew:before {
+        height: 340px;
+        top: -320px
+    }
+    
+    /* =====================================
+    6- Home page style #7
+    ===================================== */
+    
+    /* hero */
+    #scroll-down-btn.home-style-7 a {
+        bottom: 35px
+    }
+
+}

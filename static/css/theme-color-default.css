@@ -1,0 +1,223 @@
+/* ================================================
+
+Theme color deafult
+Blue color: #00a8e8 - rgb(0, 168, 232)
+Blue dark color: #007ba9 - rgb(0, 123, 169)
+
+================================================ */
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active,
+.follow-us li a i:hover,
+.pager.posts-pager li a:hover,
+.tags-widget a:hover {
+    background-color: #00a8e8;
+    border: 1px solid #00a8e8
+}
+.btn-light-2:hover,
+.btn-light-2:focus,
+.btn-light-2:active {
+    color: #00a8e8;
+    background-color: #ffffff;
+    border: 1px solid #ffffff
+}
+.btn-light-3 {
+    border: 1px solid #00a8e8;
+    color: #00a8e8
+}
+.home-style-1 .contact-form form,
+.go-to-top,
+#services.home-style-2 .service-item:hover,
+#services.home-style-2 .service-item:hover .service-icon,
+#services.home-style-3 .service-item:hover .service-icon,
+#services.home-style-4 .service-item:hover .service-icon,
+.home-style-3 .card.pricing-table:hover .table-header .price-value,
+.home-style-3 .card.pricing-table:hover .table-footer .btn.btn-light-3,
+.share-tags-post,
+.comment-body .comment-reply:hover a {
+    background-color: #00a8e8
+}
+.btn-light-boxed-1:before,
+.btn-light-boxed-1:after,
+.btn-light-rounded-1:before,
+.btn-light-rounded-1:after,
+.btn-light-rounded-2:before,
+.btn-light-rounded-2:after,
+.btn-dark-2,
+.btn-dark-2:before,
+.btn-dark-2:after,
+#services.home-style-1 .service-item .icon,
+#services.home-style-3 .service-item .icon,
+.testimonials-swiper .swiper-pagination-bullet-active, 
+.skillbar-bar {
+    background: #00a8e8
+}
+#services.home-style-1 .service-item .icon:after,
+#services.home-style-3 .service-item .icon:after {
+    -webkit-box-shadow: 0 0 0 4px #00a8e8;
+    box-shadow: 0 0 0 4px #00a8e8
+}
+.skewed-bg {
+    background-color: #007ba9
+}
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav>.active>a,
+.header-text span,
+.btn-dark-2:hover,
+.home-style-1 .fact-item i,
+.simplefilter li.active,
+.simplefilter li:hover,
+.pricing-table .plan-info h4,
+.pricing-table .table-content .fa.fa-check,
+.copyright-content p a,
+.card.blog-item:hover .post-content .post-title,
+.card.blog-item:hover .post-content .read-more,
+#services.home-style-2 .service-item .service-icon,
+#blog-header .breadcrumb .active,
+.blog-post:hover .post-title,
+.blog-post .post-info li:hover a,
+.home-style-3 .card.blog-item .post-info li:hover a,
+.blog-post:hover .read-more,
+.post-details blockquote footer,
+.post-details blockquote footer:before,
+.widget-content li:hover a,
+#coming-soon-footer .copyright a {
+    color: #00a8e8
+}
+.option-box,
+.testimonials-swiper .client-image img,
+.testimonials-swiper .swiper-pagination-bullet,
+.option-box .switcher-btn-area button.switcher-btn,
+#services.home-style-2 .service-item,
+.home-style-2 .testimonials-swiper .testimonials-swiper-inner,
+#services.home-style-3 .service-item,
+#services.home-style-4 .service-item,
+.home-style-3 .testimonials-swiper .testimonials-swiper-inner,
+.home-style-3 .card.pricing-table .table-header .price-value {
+    border: 1px solid #00a8e8
+}
+.btn-dark {
+    background-color: #00a8e8;
+    border: 1px solid #005c7f;
+    color: #ffffff
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #005c7f;
+    color: #005c7f
+}
+.card.pricing-table:hover .table-footer .btn.btn-dark {
+    color: #005c7f
+}
+#services.home-style-1 .service-icon {
+    color: #00a8e8;
+    border: 3px solid #00a8e8
+}
+#services.home-style-1 .service-item:hover .service-icon {
+    border: 3px solid #00a8e8;
+    background-color: #00a8e8
+}
+.home-style-1 .contact-form input,
+.home-style-1 .contact-form textarea,
+.home-style-1 .contact-form input:focus,
+.home-style-1 .contact-form textarea:focus {
+    border: 1px solid #005c7f
+}
+#scroll-down-btn.home-style-3 a i:hover,
+#scroll-down-btn.home-style-7 a i:hover,
+.home-style-3 .go-to-top-skew a i:hover {
+    background-color: #00a8e8;
+    border: 4px solid #00a8e8
+}
+.btn-light-boxed-1,
+.btn-light-rounded-1,
+.btn-light-rounded-2,
+#services.home-style-3 .service-item .service-icon,
+#services.home-style-4 .service-item .service-icon {
+    color: #00a8e8;
+    border: 1px solid #00a8e8
+}
+.post-details blockquote {
+    border-left-color: #00a8e8
+}
+.btn-light-3:hover,
+.btn-light-3:focus,
+.btn-light-3:active,
+.btn-light-boxed-1:hover,
+.btn-light-boxed-1:focus,
+.btn-light-boxed-1:active, 
+.btn-light-boxed-1.active,
+.btn-light-rounded-1:hover,
+.btn-light-rounded-1:focus,
+.btn-light-rounded-1:active, 
+.btn-light-rounded-1.active,
+.btn-light-rounded-2:hover,
+.btn-light-rounded-2:focus,
+.btn-light-rounded-2:active, 
+.btn-light-rounded-2.active,
+#blog-content .pagination a:hover,
+#blog-content .pagination a:focus,
+#blog-content .pagination a.active {
+    background-color: #00a8e8;
+    border: 1px solid #00a8e8
+}
+#count-down li:hover,
+.search-form .input-group-btn .btn:hover {
+    background-color: #00a8e8;
+    border-color: #00a8e8
+}
+#subscribtion-form .btn {
+    border-color: #00a8e8
+}
+.parallax-bg:after {
+    background-color: rgba(0, 168, 232, 0.5)
+}
+.video-section .video-image-overlay:after {
+    background:rgba(0, 168, 232, 0.6)
+}
+.home-style-2 .filtr-overlay .filter-overlay-top,
+.home-style-2 .filtr-overlay .filter-overlay-bottom, 
+.home-style-3 .team-overlay-top,
+.home-style-3 .team-overlay-bottom, 
+.home-style-2 .team-overlay-top,
+.home-style-2 .team-overlay-bottom, 
+.home-style-2 .table-overlay-top,
+.home-style-2 .table-overlay-bottom, 
+.home-style-2 .post-overlay-top,
+.home-style-2 .post-overlay-bottom {
+    background-color: rgba(0, 168, 232, .8)
+}
+.home-style-1 .filtr-overlay .filter-overlay-top {
+    background: url("../img/overlay/blue/filtr-overlay-top.png") repeat-x scroll 0 0
+}
+.home-style-1 .filtr-overlay .filter-overlay-bottom {
+    background: url("../img/overlay/blue/filtr-overlay-bottom.png") repeat-x scroll 0 0
+}
+.home-style-1 .team-overlay-top {
+    background: url("../img/overlay/blue/team-overlay-top.png") no-repeat scroll 0 0;
+    background-size: cover
+}
+.home-style-1 .team-overlay-bottom {
+    background: url("../img/overlay/blue/team-overlay-bottom.png") no-repeat scroll 0 0;
+    background-size: cover
+}
+.home-style-1 .table-overlay-top {
+    background: url("../img/overlay/blue/team-overlay-top.png") no-repeat scroll 0 0;
+    background-size: cover
+}
+.home-style-1 .table-overlay-bottom {
+    background: url("../img/overlay/blue/team-overlay-bottom.png") no-repeat scroll 0 0;
+    background-size: cover
+}
+.home-style-1 .post-overlay-top {
+    background: url("../img/overlay/blue/blog-overlay-top.png") no-repeat scroll 0 0;
+    background-size: 100%
+}
+.home-style-1 .post-overlay-bottom {
+    background: url("../img/overlay/blue/blog-overlay-bottom.png") no-repeat scroll 0 0;
+    background-size: 100%
+}

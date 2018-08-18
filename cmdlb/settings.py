@@ -7,22 +7,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-qpuqes$)6r7gdj0o+dxz8g7gr8e__t#v(^0+yq4lls-n*zfw5'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-PAYPAL_TEST = True
-
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'sites.apps.SitesConfig',
-    'paypal.standard.ipn',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

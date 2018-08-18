@@ -1,18 +1,12 @@
-    <main role="main">
+{% extends 'base.html' %}
 
-      <div class="album py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center pb-3">Our work</h2>
-          <div class="row">
-              <div class="column">
-                  {% for site in sites.all %}
+{% block content %}
 
-                      <a href="{{ site.url }}"><img class="img-fluid img-thumbnail" src="{{ site.image.url }}"
-                                                    alt="{{ site.title }}" style="width:100%"></a>
-                  {% endfor %}
-              </div>
-          </div>
-        </div>
-      </div>
+    <div class="col">
+        {% for site in sites.all %}
+            <a href="{{ site.url }}"><img class="img-fluid portfolio_img" src="{{ site.image.url }}"
+                                          alt="{{ site.title }}" style="max-width: 400px"></a>
 
-    </main>
+        {% endfor %}
+    </div>
+{% endblock %}
