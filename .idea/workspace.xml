@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3b1b60d-23c0-4508-837e-c618ab07cbf2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/../salary_calc/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmdlb/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmdlb/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oeg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oeg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../salary_calc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../salary_calc/.idea/modules.xml" afterDir="false" />
@@ -32,29 +33,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="6" />
           <entry key="html" value="19" />
           <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="6" />
           <entry key="HTML" value="19" />
           <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="91" />
-          <entry key="html" value="3390" />
+          <entry key="css" value="99" />
+          <entry key="html" value="3505" />
           <entry key="py" value="686" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="91" />
-          <entry key="HTML" value="3390" />
+          <entry key="CSS" value="99" />
+          <entry key="HTML" value="3505" />
           <entry key="Python" value="686" />
         </counts>
       </usages-collector>
@@ -87,14 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="334" column="67" lean-forward="true" selection-start-line="334" selection-start-column="67" selection-end-line="334" selection-end-column="67" />
+            <state relative-caret-position="259">
+              <caret line="100" column="101" selection-start-line="100" selection-start-column="101" selection-end-line="100" selection-end-column="101" />
               <folding>
-                <element signature="e#4522#4546#0#HTML" expanded="true" />
+                <element signature="e#4655#4679#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmdlb/static/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="4175" column="15" selection-start-line="4175" selection-start-column="15" selection-end-line="4175" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -183,6 +193,7 @@
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/cmdlb/templates/base.html" />
         <option value="$PROJECT_DIR$/home/templates/home.html" />
+        <option value="$PROJECT_DIR$/cmdlb/static/css/styles.css" />
       </list>
     </option>
   </component>
@@ -212,6 +223,29 @@
             <path>
               <item name="cmdlb" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmdlb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmdlb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmdlb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmdlb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmdlb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -552,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmdlb/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -573,13 +600,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="334" column="67" lean-forward="true" selection-start-line="334" selection-start-column="67" selection-end-line="334" selection-end-column="67" />
+        <state relative-caret-position="259">
+          <caret line="100" column="101" selection-start-line="100" selection-start-column="101" selection-end-line="100" selection-end-column="101" />
           <folding>
-            <element signature="e#4522#4546#0#HTML" expanded="true" />
+            <element signature="e#4655#4679#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmdlb/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="4175" column="15" selection-start-line="4175" selection-start-column="15" selection-end-line="4175" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -94,11 +94,11 @@
                 <div class="col-sm-12">
                     <div class="section-title text-center">
                         <h2>Our Portfolio</h2>
-                        <p>See below our portfolio of sites categorised by type.</p>
+                        <p>We are proud to support the following websites.</p>
                     </div>
                 </div>
                 {% for site in sites.all %}
-                    <a href="{{ site.url }}" target="_blank"><img class="img-fluid img-thumbnail"
+                    <a href="{{ site.url }}" target="_blank"><img class="img-fluid img-thumbnail crop"
                                                                   src="{{ site.image.url }}"
                                                                   alt="{{ site.title }}" style="max-width: 400px"></a>
 
@@ -330,7 +330,7 @@
                 <div class="col-md-6">
                     <div class="contact-info wow fadeInLeft" data-wow-duration="1s">
                         <h4>Get in touch</h4>
-                        <p>Please feel free to message us if you wish to start discussoins on how CMDLB can take your
+                        <p>Please feel free to message us if you wish to start discussions on how CMDLB can take your
                             web presence to the next level or if you simply wish to know more.</p>
                         <p>We look forward to hearing from you!</p>
                         <!-- Start contact info details -->
